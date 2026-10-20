@@ -1,3 +1,9 @@
+## 2026-10-21 (02:00 curator run)
+
+- Refreshed signed CDN tokens for 47 tvmalay channels via headless CDP re-capture (30-min expiry policy).
+- Euronews stream failed to re-capture (page loads no m3u8 on revisit) — dead day 1 of 7, kept.
+- TVS still dead (day 2 of 7), kept.
+- 49 channels ok: 27 FHD, 4 HD. Football 8, news 15, radio 13, malaysia 17.
 ## 2026-10-21 (late)
 
 - Token expiry discovered: tvmalay.my CDN tokens die after ~30 min. Refreshed all 46 via headless CDP re-capture (commit 2a65079).
