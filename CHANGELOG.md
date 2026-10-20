@@ -1,3 +1,9 @@
+## 2026-10-21 (late)
+
+- Token expiry discovered: tvmalay.my CDN tokens die after ~30 min. Refreshed all 46 via headless CDP re-capture (commit 2a65079).
+- FIFA+ swapped to a stable Pluto TV link (jmp2.uk short-url, no short-lived tokens) + FIFA+ French (wurl CDN) added.
+- Added Real Madrid TV (official Akamai live) and beIN SPORTS XTRA (Amagi FAST) — both token-free and stable.
+- Football playlist now 8 channels. euronews + fly-fm dropped (no stream on revisit); TVS still dead.
 ## 2026-10-20
 
 - Added 47 channels from tvmalay.my discovery (headless Chromium capture): 17 MY TV, 5 football, 15 world news, 13 radio. All verified ok except TVS (dead, kept 7 days).
