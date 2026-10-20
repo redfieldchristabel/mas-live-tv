@@ -1,5 +1,5 @@
 {
-  "updated": null,
+  "updated": "2026-10-20T15:39:06+00:00",
   "channels": [
     {
       "id": "tv1.my",
@@ -7,16 +7,959 @@
       "category": "MY | Berita",
       "logo": "",
       "tvg_id": "TV1.my",
-      "url": "",
+      "url": "https://2bfd741e.b-cdn.net/streamer/CpfuFTFqcaKT1LnpjWzNcPBp7Z8RXnz8i63NiK3Csu16.m3u8?expires=1792512189&token=8E9xcNkmtt7aGNsHYFEd32OaOSaHB92eBO0v2mSEkkM",
       "alt_urls": [],
-      "headers": {},
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": "Example entry. Agent fills url/logo after verifying."
+    },
+    {
+      "id": "tv2.my",
+      "name": "TV2",
+      "category": "MY | Hiburan",
+      "logo": "",
+      "tvg_id": "TV2.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/6gvxGkHHQ1mtt9QWbXcyW9bzkAZEvyq1kXdqNHEv28BL.m3u8?expires=1792512204&token=DExdWQn7wk5RYLRLa6R4pC_yO6ikynjfX7RAk8x8YyA",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "tvokey.my",
+      "name": "TV Okey",
+      "category": "MY | Hiburan",
+      "logo": "",
+      "tvg_id": "TVOkey.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/DQMUXfd8q9hFDzCfAqNy64AQGn7owijaJi2j67disTcM.m3u8?expires=1792512175&token=KASc2r7m-nBPjqKjyoM6KfEmtLvbx-YdNuwwaynJzQg",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "sukanrtm.my",
+      "name": "Sukan RTM",
+      "category": "MY | Sukan",
+      "logo": "",
+      "tvg_id": "SukanRTM.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/4tyP3EoCC4M6SkNPNS9eyqVghqqjANGvk4rFy1xEWMwK.m3u8?expires=1792512085&token=H1N8WA-qiekDMWCAI_med9Gj0rxqnjNdnjqjAANG43Q",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "beritartm.my",
+      "name": "Berita RTM",
+      "category": "MY | Berita",
+      "logo": "",
+      "tvg_id": "BeritaRTM.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/Dic2ryCWJX1G5SwtqBmhmAn3NXSgK16Ck6ErXNKJ6rg3.m3u8?expires=1792511609&token=ZTj76av9RvgiZYIhSzN04T8BylnERx_pfsahqexjPug",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "tv3.my",
+      "name": "TV3",
+      "category": "MY | Hiburan",
+      "logo": "",
+      "tvg_id": "TV3.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/9tcMbjFSDZMHxwN3HXGJYGwGz4QgrGqzmxH2eTBRnLeF.m3u8?expires=1792512204&token=oqdheI1MzGzQMsJRBmNzwLklKsvIyyq1y1G3JIKinn4",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
       "resolution": null,
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "todo",
-      "last_checked": null,
-      "notes": "Example entry. Agent fills url/logo after verifying."
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "8tv.my",
+      "name": "8TV",
+      "category": "MY | Hiburan",
+      "logo": "",
+      "tvg_id": "8TV.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/8pQTNs9MHm8GJxtGbMGANaFsfetEtr1Qb8g5geHFvk2b.m3u8?expires=1792511487&token=X7XRnMMAMDQLmmhKd1xhizS6xEV7VTz_AZA9TV6ReSU",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "tv9.my",
+      "name": "TV9",
+      "category": "MY | Hiburan",
+      "logo": "",
+      "tvg_id": "TV9.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/6CUB9HLbPFdQQ4TRGwvx8q7g1RUKomj4W1PGT2Ybxrf8.m3u8?expires=1792512234&token=gPszlxvh-cLKM0vuCrADQ5DYQR5x9DynLE1Rm1btUBA",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "dramasangat.my",
+      "name": "Drama Sangat",
+      "category": "MY | Drama & Filem",
+      "logo": "",
+      "tvg_id": "DramaSangat.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/4wkTJB6FQY5TYb5phy8CQ9h44wq77KDnnzRGRgJTwEyv.m3u8?expires=1792511727&token=RaskmRez1w9yk7UA6NEpZySfDELbOLcjxBkWCUiNnsM",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "bernama.my",
+      "name": "Bernama TV",
+      "category": "MY | Berita",
+      "logo": "",
+      "tvg_id": "BernamaTV.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/8aw7eudWZ9nZJdrA4j59g8M5wW3ne9DNH1XomVoj1FxE.m3u8?expires=1792511623&token=jdQfDpJFulo-3nFTkeqkYe2rnCotpTITi8Jkhqkolhk",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "tvalhijrah.my",
+      "name": "TV AlHijrah",
+      "category": "MY | Agama",
+      "logo": "",
+      "tvg_id": "TVAlHijrah.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/EbYCrPFsbJcfbFGUdnnv9PEABLYw8Xj9W3EgqLPiv8Wm.m3u8?expires=1792512145&token=7_yiFbR7F7g7ZeFWe-3Km13MA9ee0Fq07cj2TM_uNvU",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "tvikim.my",
+      "name": "TV IKIM",
+      "category": "MY | Agama",
+      "logo": "",
+      "tvg_id": "TVIKIM.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/3riAzUHoBPS2rMhfTEWcisYYGZowpmEJsFEBPExSa9BX.m3u8?expires=1792512160&token=9Bvun4nQ6jsL3tcZmVE22jsGKRrMD8FE75D9XhYz_nU",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "usimtv.my",
+      "name": "USIM TV",
+      "category": "MY | Pendidikan",
+      "logo": "",
+      "tvg_id": "USIMTV.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/GyT3iVhXwwJMnhcdoD1NMM9kNpTHjdaHzWKv1RFfSZLP.m3u8?expires=1792512264&token=Z4wXIMOFKGZGSEo39OhONbpCPaMaNFDmpRFL7TFznzA",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "didiktvkpm.my",
+      "name": "DidikTV KPM",
+      "category": "MY | Pendidikan",
+      "logo": "",
+      "tvg_id": "DidikTV.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/CAiG8K5LEdzyCDPvpiNiPTspJBAEYE4USrZ2UFsdLpy9.m3u8?expires=1792511713&token=pYg9rWZvwRWa3n75f1rAvGlvmrfRhkeFaIK0_GBHe4o",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "siaratv.my",
+      "name": "Siara TV",
+      "category": "MY | Hiburan",
+      "logo": "",
+      "tvg_id": "SiaraTV.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/69KyW2byLhG2WKhDsHYQ3BB78TWM5mdgmcNv347BfsRJ.m3u8?expires=1792512071&token=_i2x8AT80EK7W68D3QummbbcB86RjmW9fqdIWNWgD68",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "tvs.my",
+      "name": "TVS",
+      "category": "MY | Serantau",
+      "logo": "",
+      "tvg_id": "TVS.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/Ej3fj6r5K4N6oHN4k5dntRjBPp1SBiXyMyEGdrQYZ3vF.m3u8?expires=1792512249&token=hiFmeZ5A9m3h8Yjp6VbvuiY-sVu2YzJ2fqqCMbhzUKM",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "dead",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "selangortv.my",
+      "name": "Selangor TV",
+      "category": "MY | Serantau",
+      "logo": "",
+      "tvg_id": "SelangorTV.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/DkWBMnvzxJptEHmhvfm5aJwq8W4z1QegPmonrfMC87yh.m3u8?expires=1792512056&token=5QmmCaXE6t8Yh7zVYNWlaNrWnHNZxh6mMXau0kHK0XU",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "borneotv.my",
+      "name": "Borneo TV",
+      "category": "MY | Serantau",
+      "logo": "",
+      "tvg_id": "BorneoTV.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/H9TknxT3AGcJPRk3HUCpPYzWpReWibSYwx3AE9HuJnVP.m3u8?expires=1792511669&token=tmhCx_raDhnvvG0agF5FePVQ8n50kEIe0G3SMjzDamo",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "mysport.my",
+      "name": "MySport",
+      "category": "Football | Malaysia",
+      "logo": "",
+      "tvg_id": "MySport.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/4dGqw64VaYYf7h4VaboaL6LHmNAXz93ZzJFSK7tx3A2Y.m3u8?expires=1792511922&token=gSv-p-Xj1oaMixs_UU8qWcWXp-wH4vlsIvNjqD05Xcc",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "official-free",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "mplmalaysia.my",
+      "name": "MPL Malaysia",
+      "category": "Football | Malaysia",
+      "logo": "",
+      "tvg_id": "MPLMalaysia.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/5y8F68vYyTracEmHj7UFooY4X4aRto7hHgzcQDqkh6gL.m3u8?expires=1792511907&token=NgWT_h-uo6MkhJHzs_CQgxOSgdFy6YjoaVXslxRcSSg",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1280x720",
+      "quality": "HD",
+      "source": "tvmalay.my",
+      "licence": "official-free",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "ppaklcup.my",
+      "name": "PPA KL Cup",
+      "category": "Football | Malaysia",
+      "logo": "",
+      "tvg_id": "PPAKLCup.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/9KbyYkovZrtQ4dz1fi7FEUmZHaAfqp7GK7cnpVSuqvHy.m3u8?expires=1792511966&token=HgTRObjL2wdyN7kSlfsIANdF849-2Bn795oIBFJtGXg",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1280x720",
+      "quality": "HD",
+      "source": "tvmalay.my",
+      "licence": "official-free",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "fifaplus.tv",
+      "name": "FIFA+",
+      "category": "Football | Global",
+      "logo": "",
+      "tvg_id": "FIFAPlus.tv",
+      "url": "https://2bfd741e.b-cdn.net/streamer/5rZ2ynCRigZM3NYt8GEh9zmBp4cpQnFFXH7oejBDAp9h.m3u8?expires=1792511787&token=DW6-yC7oAhRtmD1fNYNuQ55vTNiafZGwsVhTIhtSOQM",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "fast",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "cna.sg",
+      "name": "CNA",
+      "category": "World | News",
+      "logo": "",
+      "tvg_id": "ChannelNewsAsia.sg",
+      "url": "https://2bfd741e.b-cdn.net/streamer/DzyhABniG1262TyB6eHDT3K5ovLv2pqQDNEXsekr7axy.m3u8?expires=1792511698&token=g88ZX-ZJTzT9v86sEslekW-xWOog8QNT1hvC84phMDU",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "aljazeeraenglish.qa",
+      "name": "Al Jazeera English",
+      "category": "World | News",
+      "logo": "",
+      "tvg_id": "AlJazeeraEnglish.qa",
+      "url": "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiHzVpuFLzUHYUZpic4qUdUeMtPpmSRQgABBmonthuSK6yH.m3u8?expires=1792511550&token=_sea2OHM7FeNkd-eaB_rVMJivZ0YuOVA6EcBU2Kwo7A",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "aljazeeraenglishhd.qa",
+      "name": "Al Jazeera English HD",
+      "category": "World | News",
+      "logo": "",
+      "tvg_id": "AlJazeeraEnglish.qa",
+      "url": "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ3kD3k2dGT1gVosF1JkEWsUaVRhjWSKYitzC81nQxB3YX.m3u8?expires=1792511550&token=0fNTLHYdxnb-9_2sJOZZH5I_dmYL-tLvLEqnF0ry6hs",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "aljazeeraarabic.qa",
+      "name": "Al Jazeera Arabic",
+      "category": "World | News",
+      "logo": "",
+      "tvg_id": "AlJazeeraArabic.qa",
+      "url": "https://2bfd741e.b-cdn.net/streamer/9BHFN1R4GkxDBuwU8WMkALbHGqCCM1vNkEpDLJHMVpPy.m3u8?expires=1792511504&token=Pj40GuNMTJ6sUGGg_Xgt57px_QEk6T3V5V_Kh7Aqjt0",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "aljazeeraarabichd.qa",
+      "name": "Al Jazeera Arabic HD",
+      "category": "World | News",
+      "logo": "",
+      "tvg_id": "AlJazeeraArabic.qa",
+      "url": "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ7Y5YyR4wFnBnmkwkSUcisTK5m1AtRbcSVoSsScAScYqn.m3u8?expires=1792511519&token=ZRHB5wX70T5DnjookSK6bPzXNvc53S3b_aZxb1DqIPQ",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "euronews.fr",
+      "name": "Euronews",
+      "category": "World | News",
+      "logo": "",
+      "tvg_id": "Euronews.fr",
+      "url": "https://2bfd741e.b-cdn.net/streamer/2uyC8DK9BJLKJH5VhjXmwvgkh4N4vSjvm6FCfPXmAXBt.m3u8?expires=1792511758&token=T-l91NYvkE5RQpoct4on1O4r3F10VF6pplWMPgzqDXE",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "dw.de",
+      "name": "DW",
+      "category": "World | News",
+      "logo": "",
+      "tvg_id": "DW.de",
+      "url": "https://2bfd741e.b-cdn.net/streamer/6HkwaBGcJQMTAqfmnqAVaGJYC82YhLbu4wvpx2ZqF3pf.m3u8?expires=1792511742&token=Qo6GHbeuJ3JR6oAu6VUwYEgNYP4V11Q3OveO0bNS5TM",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "nhkworld.jp",
+      "name": "NHK World",
+      "category": "World | News",
+      "logo": "",
+      "tvg_id": "NHKWorld.jp",
+      "url": "https://2bfd741e.b-cdn.net/streamer/XgXhT2KSe862yEZ1dfo54pRs6bQbA1YX2CdZ3H67K72.m3u8?expires=1792511937&token=NzwsetZGNTRhxaAgyMDPH0wOSH17jYsMN1IZ_YCHx34",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "arirang.kr",
+      "name": "Arirang",
+      "category": "World | News",
+      "logo": "",
+      "tvg_id": "Arirang.kr",
+      "url": "https://2bfd741e.b-cdn.net/streamer/Anf8Cb8EMSrKQpVZBCDYCtFBcyyDp2iqyeKFMY1B9vPc.m3u8?expires=1792511579&token=AGyeFlGEkQhT2RjR3YYUkB-ikmpYeJqacJaJ9Wqu9GE",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "rt.ru",
+      "name": "RT International",
+      "category": "World | News",
+      "logo": "",
+      "tvg_id": "RT.ru",
+      "url": "https://2bfd741e.b-cdn.net/streamer/4WL6fbd5pizR5pUg2oBgGzuy4sw9qfkqQzfvmz1xDWWV8TEAJcpLbTPAoGLfAwdxHR.m3u8?expires=1792512012&token=9vN8W4z0syJF3-HXZ9zRuuNGAPjS7N-7ZdcYUAwVE5Y",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "taiwanplus.tw",
+      "name": "TaiwanPlus",
+      "category": "World | News",
+      "logo": "",
+      "tvg_id": "TaiwanPlus.tw",
+      "url": "https://2bfd741e.b-cdn.net/streamer/EYHALmAVopGng8myX8ZNRB4i7Piz6xCQgpEn1Jf6ZSxC.m3u8?expires=1792512101&token=BwVknlN1FdW_MAA-wD-vNcRXWnj2XH_S9obrIVb1shc",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "indonesiachannel.id",
+      "name": "The Indonesia Channel",
+      "category": "World | News",
+      "logo": "",
+      "tvg_id": "IndonesiaChannel.id",
+      "url": "https://2bfd741e.b-cdn.net/streamer/7Tm22SqqoKjDKRYkQk4nVY1FZ6jkMYGQ2t9r4pDxqvsAEaTuidWtf7MiJ3wSRyMcMa.m3u8?expires=1792512130&token=L1jnUKzqlEiYFlr-kna5fxtCAVHqkVUAX6hB1m0XdiY",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": "1920x1080",
+      "quality": "FHD",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "rakita.my",
+      "name": "Rakita",
+      "category": "World | News",
+      "logo": "",
+      "tvg_id": "Rakita.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/J4oQtN7VQUxsNfNJYV3W9cu4xRw99WezGDXSVS4jU22s.m3u8?expires=1792511981&token=CCDmtsku_TfWkdaGLLnJ39m7--AOJiMO30Yn2pzRM94",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "aifm.my",
+      "name": "Ai FM",
+      "category": "Radio | Malaysia",
+      "logo": "",
+      "tvg_id": "AiFM.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/DcaoPSbXEy5kfHieQ7HzJCFw7V7dWUDZLVpxW7AciY7D.m3u8?expires=1792511504&token=XTFlIdCjzlu0hpLykp5O0atWexxpNzTnKftEnrMgZpI",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "asyikfm.my",
+      "name": "Asyik FM",
+      "category": "Radio | Malaysia",
+      "logo": "",
+      "tvg_id": "AsyikFM.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/uMQyML65GRNwCZ32LQWKP5jpXUvKe4TsuaJSM7zixcz.m3u8?expires=1792511594&token=0Bu1q2cIlXvBtj1yIJDcXTttdtNO0m1iOlQZ-gDlT-M",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "bernamaradio.my",
+      "name": "Bernama Radio",
+      "category": "Radio | Malaysia",
+      "logo": "",
+      "tvg_id": "BernamaRadio.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/8aw7eudWZ9nZJdrA4j59g8UDnuJnFJdbd9wNWQ5GaCH2.m3u8?expires=1792511638&token=zLymuBRWY1Cv44tTkvPFRyvAg_podFUeegw_Ol4etjA",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "bestfm.my",
+      "name": "Best FM",
+      "category": "Radio | Malaysia",
+      "logo": "",
+      "tvg_id": "BestFM.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/H9TknxT3AGcJPRk3HUCpPYZidiNXYNobEbbaZuW3AF8h.m3u8?expires=1792511669&token=ZVC1vxuiYFvec4JtfqjhxfOYBgrIDFSo6owNxSl9Cl4",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "eightfm.my",
+      "name": "Eight FM",
+      "category": "Radio | Malaysia",
+      "logo": "",
+      "tvg_id": "EightFM.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/2uyC8DK9BJLKJH5VhjXmwvDr5RskHSvc1X7nijC3u8ii.m3u8?expires=1792511758&token=0dRR9qgbft1PNRPYSkxdi74LON2zgk0BrIcxNBKZIRw",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "flyfm.my",
+      "name": "Fly FM",
+      "category": "Radio | Malaysia",
+      "logo": "",
+      "tvg_id": "FlyFM.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/5rZ2ynCRigZM3NYt8GEh9zrHEdqeDxCQHSDTuBZWh74o.m3u8?expires=1792511787&token=C9DjEAEcGoqRXh06usPGcWomfIgcKZqkSFAGOhXfIPE",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "manisfm.my",
+      "name": "Manis FM",
+      "category": "Radio | Malaysia",
+      "logo": "",
+      "tvg_id": "ManisFM.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/CCVBVzkucxekKEevQnBtd7gZ1xH1DcCyMYYidZnXiixR.m3u8?expires=1792511863&token=_TfmY9kA1B5lBMo0pFbojdnIaueLBs87MP_U8P4ntsA",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "nasionalfm.my",
+      "name": "Nasional FM",
+      "category": "Radio | Malaysia",
+      "logo": "",
+      "tvg_id": "NasionalFM.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/XgXhT2KSe862yEZ1dfo54izaTPF9XGZc531PddgcHYD.m3u8?expires=1792511937&token=1CS4mWNCuUCfKDfHxLvGzyqTkQceNQGX2f-caX_BUKA",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "radioklasik.my",
+      "name": "Radio Klasik",
+      "category": "Radio | Malaysia",
+      "logo": "",
+      "tvg_id": "RadioKlasik.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/J4oQtN7VQUxsNfNJYV3W9d8e3P3ZnWvCuTL6iThwRdYH.m3u8?expires=1792511981&token=xNDDPZd6I5z3F46bc2yoEpj6Vb3ZUVADEGBPcBLRjrI",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "sabahfm.my",
+      "name": "Sabah FM",
+      "category": "Radio | Malaysia",
+      "logo": "",
+      "tvg_id": "SabahFM.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/EivksgFSVrWwhJzu7qc6dr51s79NWXNoc56SyW2jmErL.m3u8?expires=1792512027&token=OfKrYgbwtSONb8W8l6EXmH1Jz9drhWgIrMh6Exh-BT0",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "sarawakfm.my",
+      "name": "Sarawak FM",
+      "category": "Radio | Malaysia",
+      "logo": "",
+      "tvg_id": "SarawakFM.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/8qMp8HW48zPSy2MboSivQkTN8SUiyVEZ2HQT2jJBZ1xc.m3u8?expires=1792512042&token=un4fsHM-vXeV0HgxyujothalyYnTJK259S6PKdnIhPU",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "suriafm.my",
+      "name": "Suria FM",
+      "category": "Radio | Malaysia",
+      "logo": "",
+      "tvg_id": "SuriaFM.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/EYHALmAVopGng8myX8ZNRBH4QE3VAXDgdCDyK4KR7UzH.m3u8?expires=1792512101&token=e4Cid0eQ3H1wYMIiY9NX_stT_vxDU6DmlFYARNbctsE",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
+    },
+    {
+      "id": "waifm.my",
+      "name": "Wai FM",
+      "category": "Radio | Malaysia",
+      "logo": "",
+      "tvg_id": "WaiFM.my",
+      "url": "https://2bfd741e.b-cdn.net/streamer/HsqY8mvyR2tWiYFtrACfNAdbiUS6T4XfRYiY5ondgo73.m3u8?expires=1792512279&token=mejSFr1qfU-HEsfMO4bIKaMijob884yn1XYcU3A-wiI",
+      "alt_urls": [],
+      "headers": {
+        "Origin": "https://tvmalay.my",
+        "Referer": "https://tvmalay.my/"
+      },
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "ok",
+      "last_checked": "2026-10-20T15:39:06+00:00",
+      "notes": ""
     }
   ]
 }

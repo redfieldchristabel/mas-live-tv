@@ -26,6 +26,8 @@ def entry(ch: dict) -> str:
     headers = ch.get("headers") or {}
     if headers.get("Referer"):
         lines.append(f'#EXTVLCOPT:http-referrer={headers["Referer"]}')
+    if headers.get("Origin"):
+        lines.append(f'#EXTVLCOPT:http-origin={headers["Origin"]}')
     if headers.get("User-Agent"):
         lines.append(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}')
     lines.append(ch["url"])
