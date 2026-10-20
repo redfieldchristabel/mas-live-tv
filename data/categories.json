@@ -1,0 +1,23 @@
+{
+  "order": [
+    "MY | Berita",
+    "MY | Hiburan",
+    "MY | Drama & Filem",
+    "MY | Agama",
+    "MY | Pendidikan",
+    "MY | Serantau",
+    "MY | Sukan",
+    "Football | Malaysia",
+    "Football | Clubs",
+    "Football | Global",
+    "World | News",
+    "Radio | Malaysia"
+  ],
+  "playlists": {
+    "malaysia.m3u": ["MY | Berita", "MY | Hiburan", "MY | Drama & Filem", "MY | Agama", "MY | Pendidikan", "MY | Serantau", "MY | Sukan"],
+    "football.m3u": ["MY | Sukan", "Football | Malaysia", "Football | Clubs", "Football | Global"],
+    "news.m3u": ["MY | Berita", "World | News"],
+    "radio.m3u": ["Radio | Malaysia"],
+    "all.m3u": "*"
+  }
+}

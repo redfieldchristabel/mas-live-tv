@@ -1,0 +1,22 @@
+{
+  "updated": null,
+  "channels": [
+    {
+      "id": "tv1.my",
+      "name": "TV1",
+      "category": "MY | Berita",
+      "logo": "",
+      "tvg_id": "TV1.my",
+      "url": "",
+      "alt_urls": [],
+      "headers": {},
+      "resolution": null,
+      "quality": "",
+      "source": "tvmalay.my",
+      "licence": "free-to-air",
+      "status": "todo",
+      "last_checked": null,
+      "notes": "Example entry. Agent fills url/logo after verifying."
+    }
+  ]
+}
