@@ -1,8 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="BeritaRTM.my" tvg-name="Berita RTM" tvg-logo="" group-title="MY | Berita",Berita RTM
-#EXTVLCOPT:http-referrer=https://tvmalay.my/
-#EXTVLCOPT:http-origin=https://tvmalay.my
-https://2bfd741e.b-cdn.net/streamer/Dic2ryCWJX1G5SwtqBmhmAXk19LgyCE2dYRHBp3UWVbN.m3u8?expires=1792514664&token=STel1zE5iBLBiWBgkCe0R0Zw2366uzbrUqDpLtHldYY
+#EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
+https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="BernamaTV.my" tvg-name="Bernama TV" tvg-logo="" group-title="MY | Berita",Bernama TV
 #EXTVLCOPT:http-referrer=https://tvmalay.my/
 #EXTVLCOPT:http-origin=https://tvmalay.my
@@ -64,9 +63,7 @@ https://2bfd741e.b-cdn.net/streamer/5KQZyxsjKUGnsuoGFbr5hfUUKxVQMP6PejHj89n9hwXf
 #EXTVLCOPT:http-origin=https://tvmalay.my
 https://2bfd741e.b-cdn.net/streamer/DkWBMnvzxJptEHmhvfm5aJyhKK2aPWAuQ4Q5xvoeNzYx.m3u8?expires=1792515002&token=26QXS_K-J0r2vNfPr5kMzbLL78jC5isrtzagTQIBoJQ
 #EXTINF:-1 tvg-id="SukanRTM.my" tvg-name="Sukan RTM" tvg-logo="" group-title="MY | Sukan",Sukan RTM
-#EXTVLCOPT:http-referrer=https://tvmalay.my/
-#EXTVLCOPT:http-origin=https://tvmalay.my
-https://2bfd741e.b-cdn.net/streamer/4tyP3EoCC4M6SkNPNS9eyqFxwTeENn6wULfE38rkEMct.m3u8?expires=1792515030&token=75TB0LtA7zrVTWHOb8ZKwNYJKNEfcslazst3dPiGEdI
+https://lnk5511.bstrm.net/live/687e3fa8679c8d4d68fab5dd/hd/manifest.mpd
 #EXTINF:-1 tvg-id="MPLMalaysia.my" tvg-name="MPL Malaysia" tvg-logo="" group-title="Football | Malaysia",MPL Malaysia
 #EXTVLCOPT:http-referrer=https://tvmalay.my/
 #EXTVLCOPT:http-origin=https://tvmalay.my

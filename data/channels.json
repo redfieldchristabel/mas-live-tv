@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T16:33:18+00:00",
+  "updated": "2026-10-20T16:40:30+00:00",
   "channels": [
     {
       "id": "tv1.my",
@@ -74,22 +74,16 @@
       "category": "MY | Sukan",
       "logo": "",
       "tvg_id": "SukanRTM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/4tyP3EoCC4M6SkNPNS9eyqFxwTeENn6wULfE38rkEMct.m3u8?expires=1792515030&token=75TB0LtA7zrVTWHOb8ZKwNYJKNEfcslazst3dPiGEdI",
-      "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/69KyW2byLhG2WKhDsHYQ3B5yf9WmT9RYp5jJGurxzY2N.m3u8?expires=1792515016&token=jRfwov3sHofhEBXXRkJ13iDfYOVKjLy9XxIxie3gAkM",
-        "https://2bfd741e.b-cdn.net/streamer/4tyP3EoCC4M6SkNPNS9eyqVghqqjANGvk4rFy1xEWMwK.m3u8?expires=1792515030&token=8qCxfiA8uIvcQJ_qfRDIdgGt4w57gg8xvBD97A4zFYA"
-      ],
-      "headers": {
-        "Origin": "https://tvmalay.my",
-        "Referer": "https://tvmalay.my/"
-      },
+      "url": "https://lnk5511.bstrm.net/live/687e3fa8679c8d4d68fab5dd/hd/manifest.mpd",
+      "alt_urls": [],
+      "headers": {},
       "resolution": "1920x1080",
       "quality": "FHD",
-      "source": "tvmalay.my",
+      "source": "rtm bstrm DASH (iptv-org)",
       "licence": "free-to-air",
       "status": "ok",
-      "last_checked": "2026-10-20T16:33:18+00:00",
-      "notes": ""
+      "last_checked": "2026-10-20T16:40:30+00:00",
+      "notes": "Stable RTM DASH 1080p. DASH (mpd) — needs DASH-capable player (Nuvio exoplayer ok, VLC ok)."
     },
     {
       "id": "beritartm.my",
@@ -97,21 +91,18 @@
       "category": "MY | Berita",
       "logo": "",
       "tvg_id": "BeritaRTM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/Dic2ryCWJX1G5SwtqBmhmAXk19LgyCE2dYRHBp3UWVbN.m3u8?expires=1792514664&token=STel1zE5iBLBiWBgkCe0R0Zw2366uzbrUqDpLtHldYY",
-      "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/Dic2ryCWJX1G5SwtqBmhmAn3NXSgK16Ck6ErXNKJ6rg3.m3u8?expires=1792514664&token=uG4QGjQ2j8aOo1Y6GbHWU-_0RfsSHinvihIFbrYMmvo"
-      ],
+      "url": "https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist_dvr.m3u8",
+      "alt_urls": [],
       "headers": {
-        "Origin": "https://tvmalay.my",
-        "Referer": "https://tvmalay.my/"
+        "Referer": "https://rtm-player.glueapi.io/"
       },
       "resolution": "1920x1080",
       "quality": "FHD",
-      "source": "tvmalay.my",
+      "source": "rtm msvdn (iptv-org)",
       "licence": "free-to-air",
       "status": "ok",
-      "last_checked": "2026-10-20T16:33:18+00:00",
-      "notes": ""
+      "last_checked": "2026-10-20T16:40:30+00:00",
+      "notes": "Stable RTM CDN, 1080p DVR. Referer required. Geo-note: works from outside MY too."
     },
     {
       "id": "tv3.my",

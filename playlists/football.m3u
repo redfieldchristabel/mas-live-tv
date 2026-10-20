@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="SukanRTM.my" tvg-name="Sukan RTM" tvg-logo="" group-title="MY | Sukan",Sukan RTM
-#EXTVLCOPT:http-referrer=https://tvmalay.my/
-#EXTVLCOPT:http-origin=https://tvmalay.my
-https://2bfd741e.b-cdn.net/streamer/4tyP3EoCC4M6SkNPNS9eyqFxwTeENn6wULfE38rkEMct.m3u8?expires=1792515030&token=75TB0LtA7zrVTWHOb8ZKwNYJKNEfcslazst3dPiGEdI
+https://lnk5511.bstrm.net/live/687e3fa8679c8d4d68fab5dd/hd/manifest.mpd
 #EXTINF:-1 tvg-id="MPLMalaysia.my" tvg-name="MPL Malaysia" tvg-logo="" group-title="Football | Malaysia",MPL Malaysia
 #EXTVLCOPT:http-referrer=https://tvmalay.my/
 #EXTVLCOPT:http-origin=https://tvmalay.my
