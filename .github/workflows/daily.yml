@@ -1,0 +1,47 @@
+name: daily
+
+on:
+  schedule:
+    # 04:00 Malaysia time (MYT = UTC+8) => 20:00 UTC
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Discover candidate streams (best effort)
+        continue-on-error: true
+        run: python scripts/scrape_tvmalay.py
+
+      - name: Check streams
+        run: python scripts/check_streams.py
+
+      - name: Build playlists
+        run: python scripts/build.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "mas-live-tv-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ playlists/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore(playlists): nightly stream check $(TZ=Asia/Kuala_Lumpur date +%F)"
+            git push
+          fi
