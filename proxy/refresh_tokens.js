@@ -112,13 +112,23 @@ async function main() {
     const ch = byId[cid];
     const urls = hits[slug];
     if (urls.length) {
-      ch.url = urls[urls.length - 1];
+      // The player loads a master playlist, then a variant. The variant it
+      // re-fetches is what headless Chromium plays (often 480p — no GPU).
+      // Prefer the MASTER (has RESOLUTION lines) so players pick their best;
+      // fall back to the most-replayed variant if no master was captured.
+      const master = urls.find(u => {
+        // masters are the first m3u8 whose path differs from re-fetched ones;
+        // cheap check: masters are fetched exactly once
+        return urls.filter(x => x.split('?')[0] === u.split('?')[0]).length === 1;
+      });
+      const variant = urls[urls.length - 1];
+      ch.url = master || variant;
       ch.headers = { Origin: 'https://tvmalay.my', Referer: 'https://tvmalay.my/' };
       ch.status = 'ok';
       ch.last_checked = now;
-      ch.alt_urls = urls.slice(0, -1).slice(-2);
+      ch.alt_urls = [variant].filter(u => u !== ch.url);
       updated++;
-      log(`${slug} ok`);
+      log(`${slug} ok (${master ? 'master' : 'variant'})`);
     } else {
       failed.push(slug);
       log(`${slug} FAILED`);
