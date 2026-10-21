@@ -3,6 +3,7 @@ FROM debian:bookworm-slim
 RUN apt-get update && apt-get install -y --no-install-recommends \
     python3 \
     nodejs \
+    npm \
     chromium \
     fonts-liberation \
     ca-certificates \
@@ -10,8 +11,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /app
 
-COPY proxy.py refresh_tokens.js ./
-COPY entrypoint.sh .
+RUN npm init -y >/dev/null 2>&1 && npm install ws --no-audit --no-fund
+
+COPY proxy/proxy.py proxy/refresh_tokens.js ./
+COPY proxy/entrypoint.sh ./
 RUN chmod +x entrypoint.sh
 
 # channels.json is mounted at /data

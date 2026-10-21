@@ -1,6 +1,9 @@
 // Refresh signed tvmalay.my tokens via headless Chromium CDP, then update channels.json.
 // Called by proxy.py every REFRESH_SECONDS. Writes results back to channels.json.
 // Usage: node refresh_tokens.js [--quiet] [channels_path]
+let WebSocket;
+try { WebSocket = global.WebSocket; } catch {}
+if (!WebSocket) WebSocket = require('ws');
 const { spawn } = require('child_process');
 const http = require('http');
 const fs = require('fs');
