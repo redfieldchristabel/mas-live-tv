@@ -1,3 +1,9 @@
+## 2026-10-22 (02:00 curator run)
+
+- Refreshed signed CDN tokens for 46 tvmalay channels via headless CDP re-capture.
+- Fly FM failed to re-capture (no m3u8 on revisit) — dead day 2 of 7, kept.
+- Euronews still dead (day 2/7), TVS still dead (day 3/7). All kept per retention rule.
+- 48 channels ok. Football 8, news 15, radio 12, malaysia 17, stable 6.
 ## 2026-10-21 (proxy release)
 
 - Added self-hosted token proxy (`proxy/`): headless Chromium re-captures tvmalay signed URLs every 20 min, serves /tvmalay.m3u, /stable.m3u, /all.m3u. Published to ghcr.io via .github/workflows/publish-proxy.yml on push to proxy/. docker-compose.yml included.

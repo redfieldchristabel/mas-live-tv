@@ -1,1 +1,61 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="BeritaRTM.my" tvg-name="Berita RTM" tvg-logo="" group-title="MY | Berita",Berita RTM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/Dic2ryCWJX1G5SwtqBmhmAXk19LgyCE2dYRHBp3UWVbN.m3u8?expires=1792607576&token=e91FpoDejauwxRIFju65_9fS-zE61tva4yMc9EuobDc
+#EXTINF:-1 tvg-id="BernamaTV.my" tvg-name="Bernama TV" tvg-logo="" group-title="MY | Berita",Bernama TV
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/8aw7eudWZ9nZJdrA4j59g8agN9yStCCskcpAEkjguiZW.m3u8?expires=1792607590&token=roV7wsf0j1oP6EhBvXXn3oq9tnB0LWrrEQ6RNnlNPhg
+#EXTINF:-1 tvg-id="TV1.my" tvg-name="TV1" tvg-logo="" group-title="MY | Berita",TV1
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/6yu1vgbhwY71GV7Ju7BEkev8Am93b5HTWyViZP7y1NRv.m3u8?expires=1792608027&token=i8chWmoVay8rpgIFwvas2JkgVZhhxnc9-D0t8mVexWk
+#EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-name="Al Jazeera Arabic" tvg-logo="" group-title="World | News",Al Jazeera Arabic
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ7Y5YyR4wFnBnmkwkSUcisTK5m1AtRbcSVoSsScAScYqn.m3u8?expires=1792607494&token=Ff4j8S7FaNF9ppwdVhL1SRtGjpnM0V08adY2W3sHZLk
+#EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-name="Al Jazeera Arabic HD" tvg-logo="" group-title="World | News",Al Jazeera Arabic HD
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ7Y5YyR4wFnBnmkwkSUcisSwk4WadzavmbVEPWz12STDm.m3u8?expires=1792607508&token=xGcB78Oe6XL3DNuakHu0sCwrxrKqK0FMl_3tLhsqlCs
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-name="Al Jazeera English" tvg-logo="" group-title="World | News",Al Jazeera English
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ3kD3k2dGT1gVosF1JkEWsUaVRhjWSKYitzC81nQxB3YX.m3u8?expires=1792607522&token=ocqhKvbvdTL1JWrhgi0AMdJhH95795nTXnzpPqSWW1w
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-name="Al Jazeera English HD" tvg-logo="" group-title="World | News",Al Jazeera English HD
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ3kD3k2dGT1gVosF1JkEWsUaVRhjWSKYitzC81nQxB3YX.m3u8?expires=1792607535&token=59jrvpB_UNpcJI9F7Pw445QOvntgnwDqTrZ3V19CfWo
+#EXTINF:-1 tvg-id="Arirang.kr" tvg-name="Arirang" tvg-logo="" group-title="World | News",Arirang
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/Anf8Cb8EMSrKQpVZBCDYCt1yTEZXUUwmvQ6xmCtoqUFQ.m3u8?expires=1792607548&token=xbyfTeOrB8F0NzHS2uzeG3iVHDasaWWVF_lZsmbk_pk
+#EXTINF:-1 tvg-id="ChannelNewsAsia.sg" tvg-name="CNA" tvg-logo="" group-title="World | News",CNA
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/GHQkTuWu2uW7zWQDfA66hABxynCZLa8zGPYi1M3psts7.m3u8?expires=1792607644&token=c_kTQ3q0TmvsBYVNC5mkNnbAXDmak-B-kmbNVyG7L2c
+#EXTINF:-1 tvg-id="DW.de" tvg-name="DW" tvg-logo="" group-title="World | News",DW
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/2b1gLSnVaxWfkib9ycF11R7aeHnJQeAoHak6nBcXUwbg.m3u8?expires=1792607685&token=1yXqqBZLcgHf55VdfwyKL-pzDpNynXuOU4MtwsbkFOs
+#EXTINF:-1 tvg-id="NHKWorld.jp" tvg-name="NHK World" tvg-logo="" group-title="World | News",NHK World
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/AbhQmeWN6egukpj6xZ7cVrfskuQK16dZTkTBDHtrYFBG.m3u8?expires=1792607808&token=SSexBL2ki9Hm3dPR_sRpWJjXn6jDZbRAiuLgX1nO3No
+#EXTINF:-1 tvg-id="Rakita.my" tvg-name="Rakita" tvg-logo="" group-title="World | News",Rakita
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/DGo3J4Mk4rSdt1t2MX7f3KMHRvpDquxYfCM7aiQTs2Fc.m3u8?expires=1792607850&token=hXPNts3aC9u-0i0Mv-PkuZkqw9FFjNueMbfyFq8OJBk
+#EXTINF:-1 tvg-id="RT.ru" tvg-name="RT International" tvg-logo="" group-title="World | News",RT International
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/4WL6fbd5pizR5pUg2oBgGzvmfWaL4ZZLxx6sJfesetBxJheMHMUD36sJZz3SwBRMfH.m3u8?expires=1792607863&token=56qttBzp_FrXlm7aEzHgPhx3VvC-jnPRXBmtXqdXV_Q
+#EXTINF:-1 tvg-id="TaiwanPlus.tw" tvg-name="TaiwanPlus" tvg-logo="" group-title="World | News",TaiwanPlus
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/7s2VCVXsNhLf9mqvNDBJhBRPHLC1t8tJ6f1xhQKkEemK.m3u8?expires=1792607958&token=spr4SmbbYN-iz_-A3H-bJBEClE_jEclI9xJeTuDSYaI
+#EXTINF:-1 tvg-id="IndonesiaChannel.id" tvg-name="The Indonesia Channel" tvg-logo="" group-title="World | News",The Indonesia Channel
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/7Tm22SqqoKjDKRYkQk4nVXrEBgimTH6F6QZCrisoZ1DLK9vHdQLHvVM8kZahUsiy8Y.m3u8?expires=1792607972&token=EI4kIivl4UlLZIirzw8AxS03zEQNDZt89IkmdelwL4c
