@@ -1,3 +1,8 @@
+## 2026-10-21 (proxy release)
+
+- Added self-hosted token proxy (`proxy/`): headless Chromium re-captures tvmalay signed URLs every 20 min, serves /tvmalay.m3u, /stable.m3u, /all.m3u. Published to ghcr.io via .github/workflows/publish-proxy.yml on push to proxy/. docker-compose.yml included.
+- build.py now generates playlists/stable.m3u (6 token-free channels) for the no-setup source.
+- README rewritten around the two-source model: stable (zero setup) vs self-hosted proxy (full list, recommended).
 ## 2026-10-21 (02:00 curator run)
 
 - Refreshed signed CDN tokens for 47 tvmalay channels via headless CDP re-capture (30-min expiry policy).

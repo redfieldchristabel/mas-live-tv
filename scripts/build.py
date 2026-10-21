@@ -48,6 +48,13 @@ def main() -> None:
         picked = live if groups == "*" else [c for c in live if c["category"] in groups]
         body = "\n".join(["#EXTM3U"] + [entry(c) for c in picked]) + "\n"
         (OUT / name).write_text(body)
+    # stable.m3u: only channels that need no tokens (non-tvmalay sources)
+    stable = [c for c in live if "tvmalay" not in (c.get("source") or "")]
+    body = "\n".join(["#EXTM3U"] + [entry(c) for c in stable]) + "\n"
+    (OUT / "stable.m3u").write_text(body)
+    print(f"stable.m3u: {len(stable)} channels")
+    for name, groups in cats["playlists"].items():
+        picked = live if groups == "*" else [c for c in live if c["category"] in groups]
         print(f"{name}: {len(picked)} channels")
 
 

@@ -1,0 +1,20 @@
+services:
+  mas-live-tv-proxy:
+    image: ghcr.io/redfieldchristabel/mas-live-tv/proxy:latest
+    container_name: mas-live-tv-proxy
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/data
+    environment:
+      # how often to re-capture tvmalay tokens (tokens last ~30 min)
+      REFRESH_SECONDS: "1200"
+      # seconds spent on each channel page per cycle
+      PAGE_SECONDS: "12"
+    shm_size: "512m"   # chromium needs more than the 64m default
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=5)"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
