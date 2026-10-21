@@ -64,6 +64,7 @@ docker compose up -d
 | `REFRESH_SECONDS` | 1200 | seconds between capture cycles (tokens last ~30 min) |
 | `PAGE_SECONDS` | 12 | seconds spent on each channel page |
 | `CHANNELS_PATH` | /data/channels.json | channel data location |
+| `RELAY` | off | tvmalay traffic through the proxy: `off` = direct CDN links + `#EXTVLCOPT:http-origin` (player sends the header, ~0 bandwidth); `playlist` = only `.m3u8` relayed, video direct; `full` = video relayed too |
 
 ## Notes
 
@@ -71,4 +72,7 @@ docker compose up -d
   (possibly stale) until the first capture cycle finishes (~10 min for 48 pages).
   Wait for `/health` to show `last_refresh`, or lower `PAGE_SECONDS`.
 - The container needs outbound internet to tvmalay.my.
+- `RELAY=off` relies on the player sending `Origin` itself. Nuvio Legacy reads
+  `#EXTVLCOPT:http-origin`; if a player ignores it, switch to `playlist`, then `full`.
+  Direct links also fail if the CDN binds tokens to the proxy's IP.
 - RAM: Chromium idles around 300–500 MB.

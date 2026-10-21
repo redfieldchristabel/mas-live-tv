@@ -12,6 +12,9 @@ services:
       REFRESH_SECONDS: "1200"
       # seconds spent on each channel page per cycle
       PAGE_SECONDS: "12"
+      # tvmalay traffic through this box: off (player hits CDN with Origin
+      # header, ~0 bandwidth) | playlist (only .m3u8 relayed) | full (video too)
+      RELAY: "off"
     shm_size: "512m"   # chromium needs more than the 64m default
     healthcheck:
       test: ["CMD", "python3", "-c", "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=5)"]

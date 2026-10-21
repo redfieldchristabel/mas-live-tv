@@ -26,7 +26,7 @@ import os
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 
 DATA_PATH = Path(os.environ.get("CHANNELS_PATH", "/data/channels.json"))
 PORT = int(os.environ.get("PORT", "8080"))
@@ -36,6 +36,17 @@ CDP_PORT = int(os.environ.get("CDP_PORT", "9222"))
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
 
 STABLE_SOURCES = re.compile(r"iptv-org|amagi|wurl|pluto", re.I)
+
+# How much traffic goes through this box for tvmalay channels:
+#   off      - playlist points straight at the CDN with the Origin header in
+#              #EXTVLCOPT; the player fetches everything itself (~0 bandwidth)
+#   playlist - HLS playlists go through /s/ (Origin injected), video segments
+#              are fetched by the player straight from the CDN (a few KB/min)
+#   full     - playlists AND segments go through /s/ (the full stream)
+RELAY = os.environ.get("RELAY", "off").strip().lower()
+if RELAY not in ("off", "playlist", "full"):
+    RELAY = "off"
+TVMALAY_ORIGIN = "https://tvmalay.my"
 
 lock = threading.Lock()
 captured = {}      # slug -> [m3u8 urls, freshest last]
@@ -138,13 +149,22 @@ def esc(v):
     return str(v or "").replace('"', "'")
 
 
-def entry(ch, url_override=None):
+def relay_url(url):
     import base64
+    return "/s/" + base64.urlsafe_b64encode(url.encode()).decode().rstrip("=")
+
+
+def entry(ch, url_override=None):
     url = url_override or ch["url"]
-    # tvmalay CDN demands an Origin header Nuvio won't send — route via relay
+    h = dict(ch.get("headers") or {})
     if "tvmalay" in (ch.get("source") or ""):
-        enc = base64.urlsafe_b64encode(url.encode()).decode().rstrip("=")
-        url = f"/s/{enc}"
+        # The tvmalay CDN wants Origin. Nuvio Legacy reads #EXTVLCOPT:http-origin
+        # (src/m3u_parse.c), so in "off" mode the player sends it itself and
+        # no video passes through here. Other modes route via /s/.
+        h.setdefault("Origin", TVMALAY_ORIGIN)
+        h.setdefault("Referer", TVMALAY_ORIGIN + "/")
+        if RELAY != "off":
+            url = relay_url(url)
     attrs = [
         f'tvg-id="{esc(ch.get("tvg_id"))}"',
         f'tvg-name="{esc(ch["name"])}"',
@@ -152,7 +172,6 @@ def entry(ch, url_override=None):
         f'group-title="{esc(ch["category"])}"',
     ]
     lines = [f'#EXTINF:-1 {" ".join(attrs)},{ch["name"]}']
-    h = ch.get("headers") or {}
     if h.get("Referer"):
         lines.append(f"#EXTVLCOPT:http-referrer={h['Referer']}")
     if h.get("Origin"):
@@ -205,6 +224,7 @@ class Handler(BaseHTTPRequestHandler):
                 "playlists": ["/stable.m3u", "/tvmalay.m3u", "/all.m3u"],
                 "tvmalay_channels": sum(1 for c in (doc or {}).get("channels", []) if "tvmalay" in (c.get("source") or "") and c.get("status") == "ok"),
                 "last_refresh": getattr(refresh_cycle, "last", None),
+                "relay": RELAY,
             }).encode()
             self.send_response(200)
             self.send_header("Content-Type", "application/json")
@@ -248,22 +268,33 @@ class Handler(BaseHTTPRequestHandler):
         try:
             req = urllib.request.Request(upstream, headers=hdrs)
             upstream_host = urlparse(upstream).netloc
+            # Read the whole body INSIDE the with: once it exits the response
+            # is closed and read() returns b"", which cut every playlist and
+            # segment to its first 4096 bytes.
             with urllib.request.urlopen(req, timeout=20) as r:
-                first = r.read(4096)
                 ctype = r.headers.get("Content-Type", "")
-            if b"#EXTM3U" in first or "mpegurl" in ctype.lower():
-                # playlist: rewrite every URI to route back through /s/
-                rest = r.read()
-                body = first + rest
+                body = r.read()
+            if b"#EXTM3U" in body[:4096] or "mpegurl" in ctype.lower():
                 text = body.decode("utf-8", "replace")
-                base_up = upstream.rsplit("/", 1)[0]
+                # A master playlist lists other playlists (always relayed so
+                # Origin is injected); a media playlist lists segments, keys
+                # and init maps, which only go through here in "full" mode.
+                # Off-mode players never reach /s/, so treat it like full.
+                master = "#EXT-X-STREAM-INF" in text
+                relay_children = master or RELAY != "playlist"
+
+                def fix(u):
+                    absu = urljoin(upstream, u)
+                    return relay_url(absu) if relay_children else absu
+
                 def repl(line):
                     s = line.strip()
-                    if not s or s.startswith("#"):
+                    if not s:
                         return line
-                    absu = s if s.startswith("http") else base_up + "/" + s
-                    enc = base64.urlsafe_b64encode(absu.encode()).decode().rstrip("=")
-                    return "/s/" + enc
+                    if s.startswith("#"):
+                        # URI="..." in EXT-X-MEDIA / EXT-X-KEY / EXT-X-MAP
+                        return re.sub(r'URI="([^"]+)"', lambda m: f'URI="{fix(m.group(1))}"', line)
+                    return fix(s)
                 text = "\n".join(repl(l) for l in text.splitlines()) + "\n"
                 b = text.encode()
                 self.send_response(200)
@@ -274,8 +305,7 @@ class Handler(BaseHTTPRequestHandler):
             else:
                 # segment: buffer fully then send with exact length — a
                 # Content-Length mismatch kills cloudflare tunnel with EOF
-                rest = r.read()
-                data = first + rest
+                data = body
                 self.send_response(200)
                 self.send_header("Content-Type", ctype or "video/mp2t")
                 self.send_header("Content-Length", str(len(data)))
