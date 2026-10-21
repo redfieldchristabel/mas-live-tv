@@ -17,6 +17,8 @@ The proxy NEVER edits the repo: it reads data/channels.json mounted at runtime.
 import json
 import re
 import subprocess
+import urllib
+import urllib.request
 import http.client
 import threading
 import time
@@ -137,7 +139,12 @@ def esc(v):
 
 
 def entry(ch, url_override=None):
+    import base64
     url = url_override or ch["url"]
+    # tvmalay CDN demands an Origin header Nuvio won't send — route via relay
+    if "tvmalay" in (ch.get("source") or ""):
+        enc = base64.urlsafe_b64encode(url.encode()).decode().rstrip("=")
+        url = f"/s/{enc}"
     attrs = [
         f'tvg-id="{esc(ch.get("tvg_id"))}"',
         f'tvg-name="{esc(ch["name"])}"',
@@ -190,6 +197,8 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         p = urlparse(self.path).path
+        if p.startswith("/s/"):
+            return self.do_stream(p[3:])
         if p in ("/", "/health"):
             body = json.dumps({
                 "service": "mas-live-tv-proxy",
@@ -216,6 +225,72 @@ class Handler(BaseHTTPRequestHandler):
         else:
             self.send_response(404)
             self.end_headers()
+
+    def do_stream(self, cid_q):
+        """Relay an upstream playlist or segment, injecting the Origin header
+        the CDN demands. /s/<b64url-of-upstream-url>"""
+        import base64
+        cid = cid_q.split("?")[0]
+        try:
+            upstream = base64.urlsafe_b64decode(cid + "=" * (-len(cid) % 4)).decode()
+        except Exception:
+            self.send_response(400); self.end_headers(); return
+        ch = None
+        with lock:
+            for c in (doc or {}).get("channels", []):
+                if upstream.startswith(c["url"].split("?")[0]) or c.get("url") == upstream:
+                    ch = c; break
+        hdrs = {"User-Agent": UA}
+        if ch and ch.get("headers"):
+            hdrs.update(ch["headers"])
+        if "Origin" not in hdrs and ("tvmalay" in upstream or "b-cdn.net" in upstream or (ch and "tvmalay" in (ch.get("source") or ""))):
+            hdrs["Origin"] = "https://tvmalay.my"
+        try:
+            req = urllib.request.Request(upstream, headers=hdrs)
+            upstream_host = urlparse(upstream).netloc
+            with urllib.request.urlopen(req, timeout=20) as r:
+                first = r.read(4096)
+                ctype = r.headers.get("Content-Type", "")
+            if b"#EXTM3U" in first or "mpegurl" in ctype.lower():
+                # playlist: rewrite every URI to route back through /s/
+                rest = r.read()
+                body = first + rest
+                text = body.decode("utf-8", "replace")
+                base_up = upstream.rsplit("/", 1)[0]
+                def repl(line):
+                    s = line.strip()
+                    if not s or s.startswith("#"):
+                        return line
+                    absu = s if s.startswith("http") else base_up + "/" + s
+                    enc = base64.urlsafe_b64encode(absu.encode()).decode().rstrip("=")
+                    return "/s/" + enc
+                text = "\n".join(repl(l) for l in text.splitlines()) + "\n"
+                b = text.encode()
+                self.send_response(200)
+                self.send_header("Content-Type", "application/vnd.apple.mpegurl")
+                self.send_header("Content-Length", str(len(b)))
+                self.end_headers()
+                self.wfile.write(b)
+            else:
+                # segment: stream bytes through
+                self.send_response(200)
+                self.send_header("Content-Type", ctype or "video/mp2t")
+                self.send_header("Content-Length", r.headers.get("Content-Length", "") or "")
+                self.end_headers()
+                # first chunk already read; write it then continue
+                self.wfile.write(first)
+                while True:
+                    chunk = r.read(65536)
+                    if not chunk:
+                        break
+                    self.wfile.write(chunk)
+        except Exception as e:
+            log(f"relay error for {upstream[:80]}: {e}")
+            try:
+                self.send_response(502)
+                self.end_headers()
+            except Exception:
+                pass
 
     def _m3u(self, body):
         b = body.encode()
