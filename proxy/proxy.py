@@ -273,7 +273,19 @@ class Handler(BaseHTTPRequestHandler):
             # segment to its first 4096 bytes.
             with urllib.request.urlopen(req, timeout=20) as r:
                 ctype = r.headers.get("Content-Type", "")
-                body = r.read()
+                # The CDN sometimes drops long connections mid-body; read
+                # until EOF and serve whatever arrived (players tolerate
+                # short segments far better than a hung request).
+                chunks = []
+                while True:
+                    try:
+                        chunk = r.read(65536)
+                    except Exception:
+                        break
+                    if not chunk:
+                        break
+                    chunks.append(chunk)
+                body = b"".join(chunks)
             if b"#EXTM3U" in body[:4096] or "mpegurl" in ctype.lower():
                 text = body.decode("utf-8", "replace")
                 # A master playlist lists other playlists (always relayed so
