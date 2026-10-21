@@ -272,18 +272,15 @@ class Handler(BaseHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(b)
             else:
-                # segment: stream bytes through
+                # segment: buffer fully then send with exact length — a
+                # Content-Length mismatch kills cloudflare tunnel with EOF
+                rest = r.read()
+                data = first + rest
                 self.send_response(200)
                 self.send_header("Content-Type", ctype or "video/mp2t")
-                self.send_header("Content-Length", r.headers.get("Content-Length", "") or "")
+                self.send_header("Content-Length", str(len(data)))
                 self.end_headers()
-                # first chunk already read; write it then continue
-                self.wfile.write(first)
-                while True:
-                    chunk = r.read(65536)
-                    if not chunk:
-                        break
-                    self.wfile.write(chunk)
+                self.wfile.write(data)
         except Exception as e:
             log(f"relay error for {upstream[:80]}: {e}")
             try:
