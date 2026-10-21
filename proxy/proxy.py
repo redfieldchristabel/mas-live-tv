@@ -172,6 +172,22 @@ def build_playlist(tvmalay: bool) -> str:
 
 
 class Handler(BaseHTTPRequestHandler):
+    def do_HEAD(self):
+        # Some playlist checkers probe with HEAD first; answer like a GET
+        # would (headers only) instead of the 501 default.
+        p = urlparse(self.path).path
+        if p in ("/stable.m3u", "/tvmalay.m3u", "/all.m3u"):
+            self.send_response(200)
+            self.send_header("Content-Type", "audio/x-mpegurl")
+            self.end_headers()
+        elif p in ("/", "/health"):
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json")
+            self.end_headers()
+        else:
+            self.send_response(404)
+            self.end_headers()
+
     def do_GET(self):
         p = urlparse(self.path).path
         if p in ("/", "/health"):
