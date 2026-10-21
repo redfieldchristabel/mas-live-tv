@@ -56,6 +56,23 @@ docker compose up -d
 | `/all.m3u` | everything | mixed |
 | `/health` | JSON status | — |
 
+## Stremio addon (Nuvio, Stremio, any compatible client)
+
+The proxy also speaks the Stremio addon protocol — no M3U import needed:
+
+```
+http://<host>:8080/manifest.json
+```
+
+Add that URL as an addon in Nuvio (or Stremio). You get one catalog per
+category (MY | Berita, MY | Hiburan, Football | Global, Radio | Malaysia, …),
+each channel as a tappable item that resolves to a live stream through the
+proxy — token refresh and Origin-header injection handled for you.
+
+Endpoints: `/manifest.json`, `/catalog/tv/{catalog}.json`,
+`/catalog/tv/{catalog}/search={q}.json`, `/meta/tv/{id}.json`,
+`/stream/tv/{id}.json`.
+
 ## Configuration (env)
 
 | Var | Default | Meaning |

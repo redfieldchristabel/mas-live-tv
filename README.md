@@ -34,6 +34,10 @@ docker compose up -d
 Image: `ghcr.io/redfieldchristabel/mas-live-tv/proxy:latest` (built by GitHub
 Actions on every push to `proxy/`).
 
+**Stremio/Nuvio addon:** the proxy also serves the Stremio addon protocol at
+`http://<host>:8080/manifest.json` — add it as an addon and browse channels as
+catalogs (search included) with streams resolved through the proxy. No M3U needed.
+
 ### Static playlists (convenience — tvmalay entries expire ~30 min after each nightly build)
 
 | File | What's in it |

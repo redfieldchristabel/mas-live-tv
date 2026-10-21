@@ -37,6 +37,13 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like 
 
 STABLE_SOURCES = re.compile(r"iptv-org|amagi|wurl|pluto", re.I)
 
+# Stremio-protocol addon: lets Nuvio/Stremio browse channels as catalogs and
+# resolve them to streams without any M3U import. Catalogs mirror
+# data/categories.json; each channel is a meta item of type "tv".
+ADDON_ID = "my.maslivetv.proxy"
+ADDON_VERSION = "1.0.0"
+ADDON_TYPES = ["tv", "channel"]
+
 # How much traffic goes through this box for tvmalay channels:
 #   off      - playlist points straight at the CDN with the Origin header in
 #              #EXTVLCOPT; the player fetches everything itself (~0 bandwidth)
@@ -197,6 +204,100 @@ def build_playlist(tvmalay: bool) -> str:
     return "\n".join(out) + "\n"
 
 
+def _b64(u: str) -> str:
+    import base64
+    return base64.urlsafe_b64encode(u.encode()).decode().rstrip("=")
+
+
+def _cat_slug(cat: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", cat.lower()).strip("-")
+    return slug or "cat"
+
+
+def addon_manifest() -> dict:
+    cats = json.loads((DATA_PATH.parent / "categories.json").read_text()) \
+        if (DATA_PATH.parent / "categories.json").exists() else {"order": []}
+    catalogs = [{
+        "type": "tv",
+        "id": _cat_slug(cat),
+        "name": cat,
+        "extra": [{"name": "search", "isRequired": False}],
+    } for cat in cats.get("order", [])]
+    return {
+        "id": ADDON_ID,
+        "version": ADDON_VERSION,
+        "name": "Mas Live TV",
+        "description": "Free Malaysian TV, radio and football live channels. "
+                       "Streams are token-refreshed by this proxy.",
+        "logo": None,
+        "background": None,
+        "types": ADDON_TYPES,
+        "resources": ["catalog", "stream", "meta"],
+        "catalogs": catalogs,
+        "contactEmail": None,
+    }
+
+
+def _channel_meta(ch: dict) -> dict:
+    return {
+        "id": ch["id"],
+        "type": "tv",
+        "name": ch["name"],
+        "poster": ch.get("logo") or None,
+        "background": None,
+        "logo": ch.get("logo") or None,
+        "description": f"Live {ch['category']} channel via Mas Live TV proxy.",
+        "releaseInfo": None,
+        "imdbRating": None,
+        "genres": [ch["category"]],
+    }
+
+
+def addon_catalog(cat_id: str, search: str | None = None) -> list[dict]:
+    with lock:
+        chans = [c for c in doc["channels"] if c.get("status") == "ok" and c.get("url")]
+    metas = []
+    for c in chans:
+        if _cat_slug(c["category"]) != cat_id:
+            continue
+        if search and search.lower() not in c["name"].lower():
+            continue
+        metas.append(_channel_meta(c))
+    return {"metas": metas}
+
+
+def addon_meta(ch_id: str) -> dict | None:
+    with lock:
+        for c in doc["channels"]:
+            if c["id"] == ch_id and c.get("status") == "ok":
+                m = _channel_meta(c)
+                m["videos"] = [{
+                    "id": ch_id,
+                    "title": f"{c['name']} — Live",
+                    "released": "2024-01-01T00:00:00.000Z",
+                    "season": 1,
+                    "episode": 1,
+                }]
+                return {"meta": m}
+    return None
+
+
+def addon_streams(ch_id: str) -> dict:
+    with lock:
+        for c in doc["channels"]:
+            if c["id"] == ch_id and c.get("status") == "ok" and c.get("url"):
+                url = c["url"]
+                if "tvmalay" in (c.get("source") or ""):
+                    url = "/s/" + _b64(c["url"])
+                return {"streams": [{
+                    "name": c["name"],
+                    "title": f"{c.get('quality') or 'Live'} · {c['category']}",
+                    "url": url,
+                    "behaviorHints": {"notWebReady": True},
+                }]}
+    return {"streams": []}
+
+
 class Handler(BaseHTTPRequestHandler):
     def do_HEAD(self):
         # Some playlist checkers probe with HEAD first; answer like a GET
@@ -222,6 +323,7 @@ class Handler(BaseHTTPRequestHandler):
             body = json.dumps({
                 "service": "mas-live-tv-proxy",
                 "playlists": ["/stable.m3u", "/tvmalay.m3u", "/all.m3u"],
+                "stremio_addon": "/manifest.json",
                 "tvmalay_channels": sum(1 for c in (doc or {}).get("channels", []) if "tvmalay" in (c.get("source") or "") and c.get("status") == "ok"),
                 "last_refresh": getattr(refresh_cycle, "last", None),
                 "relay": RELAY,
@@ -234,6 +336,27 @@ class Handler(BaseHTTPRequestHandler):
             self._m3u(build_playlist(tvmalay=False))
         elif p == "/tvmalay.m3u":
             self._m3u(build_playlist(tvmalay=True))
+        elif p == "/manifest.json":
+            self._json(addon_manifest())
+        elif p.startswith("/catalog/"):
+            # /catalog/{type}/{id}.json or /catalog/{type}/{id}/{extra}.json
+            parts = p.strip("/").split("/")
+            cat_id = parts[2].removesuffix(".json") if len(parts) > 2 else ""
+            search = None
+            if len(parts) > 3:
+                for kv in parts[3].removesuffix(".json").split("&"):
+                    if kv.startswith("search="):
+                        search = kv[7:]
+            self._json(addon_catalog(cat_id, search))
+        elif p.startswith("/meta/"):
+            # /meta/{type}/{id}.json
+            ch_id = p.strip("/").split("/")[2].removesuffix(".json")
+            m = addon_meta(ch_id)
+            self._json(m) if m else self._json({"meta": None}, 404)
+        elif p.startswith("/stream/"):
+            # /stream/{type}/{id}.json
+            ch_id = p.strip("/").split("/")[2].removesuffix(".json")
+            self._json(addon_streams(ch_id))
         elif p == "/all.m3u":
             with lock:
                 chans = list(doc["channels"])
@@ -330,6 +453,14 @@ class Handler(BaseHTTPRequestHandler):
                 self.end_headers()
             except Exception:
                 pass
+
+    def _json(self, payload, status=200):
+        b = json.dumps(payload).encode()
+        self.send_response(status)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Content-Length", str(len(b)))
+        self.end_headers()
+        self.wfile.write(b)
 
     def _m3u(self, body):
         b = body.encode()
