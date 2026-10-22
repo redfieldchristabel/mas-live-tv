@@ -289,11 +289,20 @@ def addon_streams(ch_id: str) -> dict:
                 url = c["url"]
                 if "tvmalay" in (c.get("source") or ""):
                     url = "/s/" + _b64(c["url"])
+                hints = {"notWebReady": True}
+                if "tvmalay" in (c.get("source") or ""):
+                    # Nuvio's player applies proxyHeaders.request to the stream
+                    # fetch — lets the CDN's Origin check pass without relay.
+                    hints["proxyHeaders"] = {"request": {
+                        "Origin": "https://tvmalay.my",
+                        "Referer": "https://tvmalay.my/",
+                        "User-Agent": "Mozilla/5.0 (SMART-TV; Linux; Tizen 10.0) MasLiveTV/1.0",
+                    }}
                 return {"streams": [{
                     "name": c["name"],
                     "title": f"{c.get('quality') or 'Live'} · {c['category']}",
                     "url": url,
-                    "behaviorHints": {"notWebReady": True},
+                    "behaviorHints": hints,
                 }]}
     return {"streams": []}
 
