@@ -6,17 +6,5 @@
   {
     "page": "https://tvmalay.my/euronews/",
     "error": "HTTP Error 404: Not Found"
-  },
-  {
-    "page": "https://tvmalay.my/fly-fm/",
-    "error": "HTTP Error 404: Not Found"
-  },
-  {
-    "page": "https://tvmalay.my/hot-fm/",
-    "error": "HTTP Error 404: Not Found"
-  },
-  {
-    "page": "https://tvmalay.my/ikim-fm/",
-    "error": "HTTP Error 404: Not Found"
   }
 ]

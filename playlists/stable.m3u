@@ -1,7 +1,19 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="BeritaRTM.my" tvg-name="Berita RTM" tvg-logo="" group-title="MY | Berita",Berita RTM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/Dic2ryCWJX1G5SwtqBmhmAXk19LgyCE2dYRHBp3UWVbN.m3u8?expires=1792693983&token=h6ciisEtgHq95ge6wOmbQnpOnBKS4RL-kvusxpBRG44
+#EXTINF:-1 tvg-id="SukanRTM.my" tvg-name="Sukan RTM" tvg-logo="" group-title="MY | Sukan",Sukan RTM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/4tyP3EoCC4M6SkNPNS9eyqFxwTeENn6wULfE38rkEMct.m3u8?expires=1792694339&token=hgdAD5ab0G86eh8ZSvtY7VLGYtqH3TcoRKyynWdu0kY
 #EXTINF:-1 tvg-id="RealMadridTV.es" tvg-name="Real Madrid TV" tvg-logo="https://i.imgur.com/5pMo7dL.png" group-title="Football | Clubs",Real Madrid TV
 https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
 #EXTINF:-1 tvg-id="beINSPORTSXTRA.us" tvg-name="beIN SPORTS XTRA" tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png" group-title="Football | Global",beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FIFAPlus.tv" tvg-name="FIFA+ (English)" tvg-logo="" group-title="Football | Global",FIFA+ (English)
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/5rZ2ynCRigZM3NYt8GEh9zhQtuJMqrXUoZNsQVuZayjP.m3u8?expires=1792694134&token=NJHYlgREhv9C4eJwwXHCpkzC3TFCNm9wmuSBCSkMFQs
 #EXTINF:-1 tvg-id="FIFAPlus.uk@French" tvg-name="FIFA+ (French)" tvg-logo="" group-title="Football | Global",FIFA+ (French)
 https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8

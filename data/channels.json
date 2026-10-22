@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T22:54:21+00:00",
+  "updated": "2026-10-22T18:14:19+00:00",
   "channels": [
     {
       "id": "tv1.my",
@@ -7,9 +7,9 @@
       "category": "MY | Berita",
       "logo": "",
       "tvg_id": "TV1.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/6yu1vgbhwY71GV7Ju7BEkev8Am93b5HTWyViZP7y1NRv.m3u8?expires=1792608027&token=i8chWmoVay8rpgIFwvas2JkgVZhhxnc9-D0t8mVexWk",
+      "url": "https://2bfd741e.b-cdn.net/streamer/6yu1vgbhwY71GV7Ju7BEkev8Am93b5HTWyViZP7y1NRv.m3u8?expires=1792694434&token=kflOa83ZYWOqj4SbQupksNPSwG8QC0TdRT4BQEtml0A",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/CpfuFTFqcaKT1LnpjWzNcPBp7Z8RXnz8i63NiK3Csu16.m3u8?expires=1792608027&token=iCDLL-lXc8X4YAWChEuyB5CNx5hSxde0Pbd0SwRk31M"
+        "https://2bfd741e.b-cdn.net/streamer/CpfuFTFqcaKT1LnpjWzNcPBp7Z8RXnz8i63NiK3Csu16.m3u8?expires=1792694434&token=QAWEukDW_T6bR-NLIevLEg5WdnO7SKNp8V5sgjCpdSs"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -19,8 +19,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": "Example entry. Agent fills url/logo after verifying."
     },
     {
@@ -29,9 +29,9 @@
       "category": "MY | Hiburan",
       "logo": "",
       "tvg_id": "TV2.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/9tcMbjFSDZMHxwN3HXGJYGwGz4QgrGqzmxH2eTBRnLeF.m3u8?expires=1792608040&token=dvig9ahjJkArMYhHSHZGV80I6LQda5s40WQ7dmlKrK0",
+      "url": "https://2bfd741e.b-cdn.net/streamer/9tcMbjFSDZMHxwN3HXGJYGwGz4QgrGqzmxH2eTBRnLeF.m3u8?expires=1792694448&token=pGpJ_B2vVOpEa8deEzM-fw2fTF7L__1Xf5QXuV_tMwA",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/6gvxGkHHQ1mtt9QWbXcyW9bzkAZEvyq1kXdqNHEv28BL.m3u8?expires=1792608040&token=ZFftdMfWglyA6eHMcJGo0crjCTalH_rIOBfORj_Z9eM"
+        "https://2bfd741e.b-cdn.net/streamer/6gvxGkHHQ1mtt9QWbXcyW9bzkAZEvyq1kXdqNHEv28BL.m3u8?expires=1792694448&token=lZusTC2llQsc_9RdSL0LYSYQ1hNOEP_hEx-gnvK6Ius"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -41,8 +41,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -51,10 +51,9 @@
       "category": "MY | Hiburan",
       "logo": "",
       "tvg_id": "TVOkey.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/DQMUXfd8q9hFDzCfAqNy6468WsTsYDfRtkzkD3gRi97G.m3u8?expires=1792608013&token=ZhPX1XajxJ7HoeEq64lfxcau4USvgpWvOJV5sedQx9w",
+      "url": "https://2bfd741e.b-cdn.net/streamer/DQMUXfd8q9hFDzCfAqNy6468WsTsYDfRtkzkD3gRi97G.m3u8?expires=1792694420&token=0K3vK4y11pKYJe8toNPad8SeWnwzNWwpzts6uDtkB3g",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/3riAzUHoBPS2rMhfTEWcisiHLJFJjdKT3z2yNx79trYE.m3u8?expires=1792608000&token=xcPvsOIpQNUtnatzyWEnIw3xHDd9wEDew9T4Atqv_U4",
-        "https://2bfd741e.b-cdn.net/streamer/DQMUXfd8q9hFDzCfAqNy64AQGn7owijaJi2j67disTcM.m3u8?expires=1792608013&token=51mHgwyAKg9_M_MqQYjmkviQ6KRT8e9jGD8JgfE_yKE"
+        "https://2bfd741e.b-cdn.net/streamer/DQMUXfd8q9hFDzCfAqNy64AQGn7owijaJi2j67disTcM.m3u8?expires=1792694420&token=iKSEiolw7agqUl8XCvM64x7nZJBgSkL1EOhKeTgjN2E"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -64,8 +63,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -74,10 +73,9 @@
       "category": "MY | Sukan",
       "logo": "",
       "tvg_id": "SukanRTM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/4tyP3EoCC4M6SkNPNS9eyqFxwTeENn6wULfE38rkEMct.m3u8?expires=1792607931&token=hFDx0EgNUpYjVaf2jksUh5c35p0on3c7RGqR6wzxV98",
+      "url": "https://2bfd741e.b-cdn.net/streamer/4tyP3EoCC4M6SkNPNS9eyqFxwTeENn6wULfE38rkEMct.m3u8?expires=1792694339&token=hgdAD5ab0G86eh8ZSvtY7VLGYtqH3TcoRKyynWdu0kY",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/69KyW2byLhG2WKhDsHYQ3B5yf9WmT9RYp5jJGurxzY2N.m3u8?expires=1792607918&token=BBm9DFimPq-mof-CyN8oC_zq0AD7nYU_lh2vpuZdm_w",
-        "https://2bfd741e.b-cdn.net/streamer/4tyP3EoCC4M6SkNPNS9eyqVghqqjANGvk4rFy1xEWMwK.m3u8?expires=1792607931&token=0hwNoiWGitL5FZLwY_lYkxcY42HWj4-OmyuxrXIkGCg"
+        "https://2bfd741e.b-cdn.net/streamer/4tyP3EoCC4M6SkNPNS9eyqVghqqjANGvk4rFy1xEWMwK.m3u8?expires=1792694339&token=JWp_Ag5OOq0v8QGYa_mSF22QOhe-57_wM4jAfvJCuaA"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -87,8 +85,8 @@
       "quality": "FHD",
       "source": "rtm bstrm DASH (iptv-org)",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": "Stable RTM DASH 1080p. DASH (mpd) — needs DASH-capable player (Nuvio exoplayer ok, VLC ok)."
     },
     {
@@ -97,9 +95,10 @@
       "category": "MY | Berita",
       "logo": "",
       "tvg_id": "BeritaRTM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/Dic2ryCWJX1G5SwtqBmhmAXk19LgyCE2dYRHBp3UWVbN.m3u8?expires=1792607576&token=e91FpoDejauwxRIFju65_9fS-zE61tva4yMc9EuobDc",
+      "url": "https://2bfd741e.b-cdn.net/streamer/Dic2ryCWJX1G5SwtqBmhmAXk19LgyCE2dYRHBp3UWVbN.m3u8?expires=1792693983&token=h6ciisEtgHq95ge6wOmbQnpOnBKS4RL-kvusxpBRG44",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/Dic2ryCWJX1G5SwtqBmhmAn3NXSgK16Ck6ErXNKJ6rg3.m3u8?expires=1792607576&token=nkhCmQRrx4M7HLEOmxjPytCX1igrV6X51O1O9l7pAME"
+        "https://2bfd741e.b-cdn.net/streamer/uMQyML65GRNwCZ32LQWKNim41g5aTaTkJk1e5wRzEEw.m3u8?expires=1792693969&token=XKgkPmT1xhstw9pYYCwPo7nLRDip8RvOjFceuHixS9I",
+        "https://2bfd741e.b-cdn.net/streamer/Dic2ryCWJX1G5SwtqBmhmAn3NXSgK16Ck6ErXNKJ6rg3.m3u8?expires=1792693983&token=LnceN3Ib3PaL1uZ9GnC9jOlHomWVVVLfe76qGHZTYrM"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -109,8 +108,8 @@
       "quality": "FHD",
       "source": "rtm msvdn (iptv-org)",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": "Stable RTM CDN, 1080p DVR. Referer required. Geo-note: works from outside MY too."
     },
     {
@@ -119,9 +118,10 @@
       "category": "MY | Hiburan",
       "logo": "",
       "tvg_id": "TV3.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/6zRGXhNeg6eCQHs8DgaZt3ewSkznBxnfhD98tzpLpvfM.m3u8?expires=1792608054&token=RsrCrCRHpuQ0zAQDvgZnGqhZnEn6YSLjxQecsWFVp14",
+      "url": "https://2bfd741e.b-cdn.net/streamer/6zRGXhNeg6eCQHs8DgaZt3ewSkznBxnfhD98tzpLpvfM.m3u8?expires=1792694461&token=IkMJ-Q4aSNNfpVhKXAsD3Z8tX1J_jTkr8FUlu8gCzso",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/6enj7a28wshMvNNzXzLrtmMDgVsnVpJC6cZGZf6g5yJt.m3u8?expires=1792608054&token=w-C2MG52MVgpYlgoXXEuDgz6B67IFWwCn9YIVHB-rSI"
+        "https://2bfd741e.b-cdn.net/streamer/9tcMbjFSDZMHxwN3HXGJYGwGz4QgrGqzmxH2eTBRnLeF.m3u8?expires=1792694448&token=pGpJ_B2vVOpEa8deEzM-fw2fTF7L__1Xf5QXuV_tMwA",
+        "https://2bfd741e.b-cdn.net/streamer/6enj7a28wshMvNNzXzLrtmMDgVsnVpJC6cZGZf6g5yJt.m3u8?expires=1792694461&token=cQ5dSDUuIfNfJRHaRpNdYokAEyXe6PcXel_IptsDJHQ"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -131,8 +131,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -141,9 +141,9 @@
       "category": "MY | Hiburan",
       "logo": "",
       "tvg_id": "8TV.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/CdGgA8CuN4EUeZHTUp8H9SQsCXgutovGhhUsziY2rhHF.m3u8?expires=1792607467&token=M_m7M5s5bgKlYacD_yPwZg7YYuQKJN4sE5e-W4N4pZI",
+      "url": "https://2bfd741e.b-cdn.net/streamer/CdGgA8CuN4EUeZHTUp8H9SQsCXgutovGhhUsziY2rhHF.m3u8?expires=1792693873&token=HMNcQG715nb1JCbivYjwM4VFwdUffZpLjfVHYZSKrsg",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/8pQTNs9MHm8GJxtGbMGANaFsfetEtr1Qb8g5geHFvk2b.m3u8?expires=1792607467&token=O99ShYMOZuaaQ7av0uv1qIAH1s4mZ9KXs0smYx3pzHI"
+        "https://2bfd741e.b-cdn.net/streamer/8pQTNs9MHm8GJxtGbMGANaFsfetEtr1Qb8g5geHFvk2b.m3u8?expires=1792693873&token=E1GisjByXUmwCPdi-hZ7aa6bewdRqaG9M3sX8XULcoU"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -153,8 +153,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -163,10 +163,10 @@
       "category": "MY | Hiburan",
       "logo": "",
       "tvg_id": "TV9.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/GRb41qqNMC1yUxfgpkTEnFQbMxeuL48sxMC8US86uAeo.m3u8?expires=1792608068&token=kkA_E_aMJccW7LkwdE0RfImfJqyc0haETD_aheikQPY",
+      "url": "https://2bfd741e.b-cdn.net/streamer/GRb41qqNMC1yUxfgpkTEnFQbMxeuL48sxMC8US86uAeo.m3u8?expires=1792694475&token=7WeHHd66wqaYhwFQOgg7kQo1NtvtwuyL6LXAXFwUnuY",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/6zRGXhNeg6eCQHs8DgaZt3ewSkznBxnfhD98tzpLpvfM.m3u8?expires=1792608054&token=RsrCrCRHpuQ0zAQDvgZnGqhZnEn6YSLjxQecsWFVp14",
-        "https://2bfd741e.b-cdn.net/streamer/6CUB9HLbPFdQQ4TRGwvx8q7g1RUKomj4W1PGT2Ybxrf8.m3u8?expires=1792608068&token=TrjrwbGjNTeYUExlZsN96_CZ8Y0kOJ4hnPMVlnXIumU"
+        "https://2bfd741e.b-cdn.net/streamer/6zRGXhNeg6eCQHs8DgaZt3ewSkznBxnfhD98tzpLpvfM.m3u8?expires=1792694461&token=IkMJ-Q4aSNNfpVhKXAsD3Z8tX1J_jTkr8FUlu8gCzso",
+        "https://2bfd741e.b-cdn.net/streamer/6CUB9HLbPFdQQ4TRGwvx8q7g1RUKomj4W1PGT2Ybxrf8.m3u8?expires=1792694475&token=Krb2oZEeDZFVN4ScZs_yUh0WnYt2ik9UwofbIXWEgxE"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -176,8 +176,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -186,10 +186,10 @@
       "category": "MY | Drama & Filem",
       "logo": "",
       "tvg_id": "DramaSangat.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/4wkTJB6FQY5TYb5phy8CQ9NPeHNYXRsijneuWm2wJTim.m3u8?expires=1792607671&token=VDtmPNXJqZiB8GyeJSTKgOT7t6Z7Kg_QZM874ZukQa4",
+      "url": "https://2bfd741e.b-cdn.net/streamer/4wkTJB6FQY5TYb5phy8CQ9NPeHNYXRsijneuWm2wJTim.m3u8?expires=1792694078&token=iK3ssyvyxmvS-2kse-zbZrftq6vWuZbNJWxbYhmZsns",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/A4x7UH3ZN4gREeyDfmf66LUBJsgd3EuDn9hS8qA5pxSk.m3u8?expires=1792607658&token=hLAHIZSYmMgBx3K9hgjL0NOzeEHyiMCA4p1Y6lXJDsE",
-        "https://2bfd741e.b-cdn.net/streamer/4wkTJB6FQY5TYb5phy8CQ9h44wq77KDnnzRGRgJTwEyv.m3u8?expires=1792607671&token=04xDL8r6BH4usRkYJOmX1GBS_2W82IKnxT_mZxPYGUA"
+        "https://2bfd741e.b-cdn.net/streamer/A4x7UH3ZN4gREeyDfmf66LUBJsgd3EuDn9hS8qA5pxSk.m3u8?expires=1792694065&token=spSvBYlcsUBDbLsiMGPgvWjn2eHDVZcC4oaW0p-IoJQ",
+        "https://2bfd741e.b-cdn.net/streamer/4wkTJB6FQY5TYb5phy8CQ9h44wq77KDnnzRGRgJTwEyv.m3u8?expires=1792694078&token=qN1GFpH_qn7gyhLJFQXl-5YHzHqjpvGpeb7oOlc4x8M"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -199,8 +199,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -209,10 +209,10 @@
       "category": "MY | Berita",
       "logo": "",
       "tvg_id": "BernamaTV.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/8aw7eudWZ9nZJdrA4j59g8agN9yStCCskcpAEkjguiZW.m3u8?expires=1792607590&token=roV7wsf0j1oP6EhBvXXn3oq9tnB0LWrrEQ6RNnlNPhg",
+      "url": "https://2bfd741e.b-cdn.net/streamer/8aw7eudWZ9nZJdrA4j59g8agN9yStCCskcpAEkjguiZW.m3u8?expires=1792693996&token=N67i7Cm0mxHR8ma8QifXkrQOC1nRRsvgA_9DrshTa-A",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/Dic2ryCWJX1G5SwtqBmhmAXk19LgyCE2dYRHBp3UWVbN.m3u8?expires=1792607576&token=e91FpoDejauwxRIFju65_9fS-zE61tva4yMc9EuobDc",
-        "https://2bfd741e.b-cdn.net/streamer/8aw7eudWZ9nZJdrA4j59g8M5wW3ne9DNH1XomVoj1FxE.m3u8?expires=1792607590&token=_8E9JlL0aoo3cUv_mdlwihTRuQOlAgx6BJ6JhgR3fsw"
+        "https://2bfd741e.b-cdn.net/streamer/Dic2ryCWJX1G5SwtqBmhmAXk19LgyCE2dYRHBp3UWVbN.m3u8?expires=1792693983&token=h6ciisEtgHq95ge6wOmbQnpOnBKS4RL-kvusxpBRG44",
+        "https://2bfd741e.b-cdn.net/streamer/8aw7eudWZ9nZJdrA4j59g8M5wW3ne9DNH1XomVoj1FxE.m3u8?expires=1792693996&token=zvAjK4k4qSCkOM-_knohAe8GehJRRfnP3XNIxWltiKw"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -222,8 +222,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -232,9 +232,10 @@
       "category": "MY | Agama",
       "logo": "",
       "tvg_id": "TVAlHijrah.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/EbYCrPFsbJcfbFGUdnnv9PHsHqRr429BvDN1WXckzZMs.m3u8?expires=1792607986&token=vh95NFQxVB_mH6XbzvJhVCAk5cu2_Q6efOPshcL6fYw",
+      "url": "https://2bfd741e.b-cdn.net/streamer/EbYCrPFsbJcfbFGUdnnv9PHsHqRr429BvDN1WXckzZMs.m3u8?expires=1792694393&token=W3GyRD7CBkuRrOYeFspfPy3pSnd08miaJPz_w-fRVQw",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/EbYCrPFsbJcfbFGUdnnv9PEABLYw8Xj9W3EgqLPiv8Wm.m3u8?expires=1792607986&token=Oggh5v9wcrTpOOrKGhYYo8GQJ5LZcfqoeGrYHUR3yGc"
+        "https://2bfd741e.b-cdn.net/streamer/7Tm22SqqoKjDKRYkQk4nVXrEBgimTH6F6QZCrisoZ1DLK9vHdQLHvVM8kZahUsiy8Y.m3u8?expires=1792694380&token=zsOoI9NieJHZ8XaOg3e_YWjjMjYNzoD5Vv0f0YiMw-s",
+        "https://2bfd741e.b-cdn.net/streamer/EbYCrPFsbJcfbFGUdnnv9PEABLYw8Xj9W3EgqLPiv8Wm.m3u8?expires=1792694393&token=tXh2G07cUd4I-LDkW_lVoUWATcs8tB-E-lNeJsEflHQ"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -244,8 +245,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -254,9 +255,9 @@
       "category": "MY | Agama",
       "logo": "",
       "tvg_id": "TVIKIM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/3riAzUHoBPS2rMhfTEWcisiHLJFJjdKT3z2yNx79trYE.m3u8?expires=1792608000&token=xcPvsOIpQNUtnatzyWEnIw3xHDd9wEDew9T4Atqv_U4",
+      "url": "https://2bfd741e.b-cdn.net/streamer/3riAzUHoBPS2rMhfTEWcisiHLJFJjdKT3z2yNx79trYE.m3u8?expires=1792694406&token=XEZ3G0hRBg8A6FP3Q1AtNooHlGbu3KJSM37OA8dvOO4",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/3riAzUHoBPS2rMhfTEWcisYYGZowpmEJsFEBPExSa9BX.m3u8?expires=1792608000&token=0QDWRPtnumJTyqlhH3ezFwf8tfNpoHqjbORcObZB_8A"
+        "https://2bfd741e.b-cdn.net/streamer/3riAzUHoBPS2rMhfTEWcisYYGZowpmEJsFEBPExSa9BX.m3u8?expires=1792694406&token=5CvpEF2A8TjrFtmD7lnTCJdStY6KY5z1W_WR_SK6Mak"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -266,8 +267,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -276,9 +277,9 @@
       "category": "MY | Pendidikan",
       "logo": "",
       "tvg_id": "USIMTV.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/GyT3iVhXwwJMnhcdoD1NMMXbE5Vok7mAtHohRyu1qY6F.m3u8?expires=1792608095&token=ODc_UXpQ2VhBXJvFn9UNFMXNfhohK8w4H_eZc39bvho",
+      "url": "https://2bfd741e.b-cdn.net/streamer/GyT3iVhXwwJMnhcdoD1NMMXbE5Vok7mAtHohRyu1qY6F.m3u8?expires=1792694502&token=K7nE96gSCSL_wVJ0f12EsJ2V8FqXjBcCrV0xEXsVKt8",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/GyT3iVhXwwJMnhcdoD1NMM9kNpTHjdaHzWKv1RFfSZLP.m3u8?expires=1792608095&token=QLEfqJj6Bht6qN_wc857ibh8qit1A0d_grr3HmEu3U4"
+        "https://2bfd741e.b-cdn.net/streamer/GyT3iVhXwwJMnhcdoD1NMM9kNpTHjdaHzWKv1RFfSZLP.m3u8?expires=1792694502&token=0lh1urjNdCGQ7E5SDwcaxoylwW06ybHj7XnsrM7lvWk"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -288,8 +289,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -298,9 +299,10 @@
       "category": "MY | Pendidikan",
       "logo": "",
       "tvg_id": "DidikTV.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/A4x7UH3ZN4gREeyDfmf66LUBJsgd3EuDn9hS8qA5pxSk.m3u8?expires=1792607658&token=hLAHIZSYmMgBx3K9hgjL0NOzeEHyiMCA4p1Y6lXJDsE",
+      "url": "https://2bfd741e.b-cdn.net/streamer/A4x7UH3ZN4gREeyDfmf66LUBJsgd3EuDn9hS8qA5pxSk.m3u8?expires=1792694065&token=spSvBYlcsUBDbLsiMGPgvWjn2eHDVZcC4oaW0p-IoJQ",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/CAiG8K5LEdzyCDPvpiNiPTspJBAEYE4USrZ2UFsdLpy9.m3u8?expires=1792607658&token=Qw6ib7k-c3UqpWJ4rsypIV_a0wn0vu5GDEter-vh3K0"
+        "https://2bfd741e.b-cdn.net/streamer/GHQkTuWu2uW7zWQDfA66hABxynCZLa8zGPYi1M3psts7.m3u8?expires=1792694052&token=eFvIKn_beB_rdJu1xXkMOJP-vobeiRk7BhXi8J0RSEY",
+        "https://2bfd741e.b-cdn.net/streamer/CAiG8K5LEdzyCDPvpiNiPTspJBAEYE4USrZ2UFsdLpy9.m3u8?expires=1792694065&token=MaNNftEFN79zknNJXR28_7dAkFh2zSQJRrwdTHeuS9E"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -310,8 +312,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -320,10 +322,9 @@
       "category": "MY | Hiburan",
       "logo": "",
       "tvg_id": "SiaraTV.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/69KyW2byLhG2WKhDsHYQ3B5yf9WmT9RYp5jJGurxzY2N.m3u8?expires=1792607918&token=BBm9DFimPq-mof-CyN8oC_zq0AD7nYU_lh2vpuZdm_w",
+      "url": "https://2bfd741e.b-cdn.net/streamer/69KyW2byLhG2WKhDsHYQ3B5yf9WmT9RYp5jJGurxzY2N.m3u8?expires=1792694324&token=NkdX2hFfELtHr0Pp6973FK7EmgJR3oJWEQ3g4kJNnNk",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/DkWBMnvzxJptEHmhvfm5aJyhKK2aPWAuQ4Q5xvoeNzYx.m3u8?expires=1792607904&token=H5CLh6SgO-NX5nBiiDj0oVziSaCWq0TIisoDrkbLPpI",
-        "https://2bfd741e.b-cdn.net/streamer/69KyW2byLhG2WKhDsHYQ3BB78TWM5mdgmcNv347BfsRJ.m3u8?expires=1792607918&token=IyFZGcKkd-x5plXvstzLI-3ZHgzD1tQ-8IKX7kfXC5k"
+        "https://2bfd741e.b-cdn.net/streamer/69KyW2byLhG2WKhDsHYQ3BB78TWM5mdgmcNv347BfsRJ.m3u8?expires=1792694324&token=iS5dFWx8AWRUwF5_er30VkMCUet0QEQrzsxuLcz1w3k"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -333,8 +334,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -343,8 +344,10 @@
       "category": "MY | Serantau",
       "logo": "",
       "tvg_id": "TVS.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/Ej3fj6r5K4N6oHN4k5dntRjBPp1SBiXyMyEGdrQYZ3vF.m3u8?expires=1792608081&token=1HU-ZzRQtd8c2sCW4glbydU-n7NafNAm12SPtGbbuGA",
-      "alt_urls": [],
+      "url": "https://2bfd741e.b-cdn.net/streamer/Ej3fj6r5K4N6oHN4k5dntRjBPp1SBiXyMyEGdrQYZ3vF.m3u8?expires=1792694488&token=VhWgIOcWupmYutcF_shKQ-G9WJ3qO8s-NXrUGpxEk_4",
+      "alt_urls": [
+        "https://2bfd741e.b-cdn.net/streamer/GRb41qqNMC1yUxfgpkTEnFQbMxeuL48sxMC8US86uAeo.m3u8?expires=1792694475&token=7WeHHd66wqaYhwFQOgg7kQo1NtvtwuyL6LXAXFwUnuY"
+      ],
       "headers": {
         "Origin": "https://tvmalay.my",
         "Referer": "https://tvmalay.my/"
@@ -354,7 +357,7 @@
       "source": "tvmalay.my",
       "licence": "free-to-air",
       "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -363,9 +366,9 @@
       "category": "MY | Serantau",
       "logo": "",
       "tvg_id": "SelangorTV.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/DkWBMnvzxJptEHmhvfm5aJyhKK2aPWAuQ4Q5xvoeNzYx.m3u8?expires=1792607904&token=H5CLh6SgO-NX5nBiiDj0oVziSaCWq0TIisoDrkbLPpI",
+      "url": "https://2bfd741e.b-cdn.net/streamer/DkWBMnvzxJptEHmhvfm5aJyhKK2aPWAuQ4Q5xvoeNzYx.m3u8?expires=1792694311&token=kY8TDNL8wfJ01WnKUtiAcwb-Uv2dneqe0e4Xq9f5Rnw",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/DkWBMnvzxJptEHmhvfm5aJwq8W4z1QegPmonrfMC87yh.m3u8?expires=1792607904&token=jc0P1AGygYMezmYd6Ys6cPf3RVx0RW7_lgzUAZVFXmU"
+        "https://2bfd741e.b-cdn.net/streamer/DkWBMnvzxJptEHmhvfm5aJwq8W4z1QegPmonrfMC87yh.m3u8?expires=1792694311&token=b2PUAtv6hRz1dwHmlnMrSpW8KjdGzxJSBu0CIpVNCas"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -375,8 +378,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -385,9 +388,10 @@
       "category": "MY | Serantau",
       "logo": "",
       "tvg_id": "BorneoTV.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/5KQZyxsjKUGnsuoGFbr5hfUUKxVQMP6PejHj89n9hwXf.m3u8?expires=1792607631&token=QIG60--9Sn9kFO4zR2K9J-yz6z3vXLToz-BiJSYaPeA",
+      "url": "https://2bfd741e.b-cdn.net/streamer/5KQZyxsjKUGnsuoGFbr5hfUUKxVQMP6PejHj89n9hwXf.m3u8?expires=1792694037&token=P08H-G1_oibr60OU0pLSxZ-zhrWBYPEddaA547oIWNA",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/5KQZyxsjKUGnsuoGFbr5hfsycjrA3Mk7yLsYnf3qVJCE.m3u8?expires=1792607631&token=j_82ZCd8UfVyyWviyq_D_pxg7ScflYIL5hpKwASHt7A"
+        "https://2bfd741e.b-cdn.net/streamer/H9TknxT3AGcJPRk3HUCpPYzWpReWibSYwx3AE9HuJnVP.m3u8?expires=1792694024&token=MGCbLSOOpt6wG-xQY7QYhTd14M789xiAQarhXRJ5SWE",
+        "https://2bfd741e.b-cdn.net/streamer/5KQZyxsjKUGnsuoGFbr5hfsycjrA3Mk7yLsYnf3qVJCE.m3u8?expires=1792694037&token=KzwyRtikP5Edp9z0gK2G6D2h_YkrUaiROmyi8RY-NVc"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -397,8 +401,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -407,10 +411,9 @@
       "category": "Football | Malaysia",
       "logo": "",
       "tvg_id": "MySport.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/4dGqw64VaYYf7h4VaboaL6S4qWSUA5N1L2C1YeKHLVas.m3u8?expires=1792607780&token=XGHJ4ayw9oe54fKeB_ajALRKu98G-1MaiLbfa8N__aQ",
+      "url": "https://2bfd741e.b-cdn.net/streamer/4dGqw64VaYYf7h4VaboaL6S4qWSUA5N1L2C1YeKHLVas.m3u8?expires=1792694188&token=JkcXwCIrTOs6CFZeukJLs_Z8KbH9ejfXf5Z9An8ulQI",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/5y8F68vYyTracEmHj7UFooaRHeNdyzrTrxiJGjqDJWVg.m3u8?expires=1792607767&token=4SDTyEf7OZA94u6qK0tz67EObSS2upEhx9bUaPIcy8U",
-        "https://2bfd741e.b-cdn.net/streamer/4dGqw64VaYYf7h4VaboaL6LHmNAXz93ZzJFSK7tx3A2Y.m3u8?expires=1792607780&token=nrtPAR-vlD5ItbddBwj8lpn4aLobokaxgzUCmtALccw"
+        "https://2bfd741e.b-cdn.net/streamer/4dGqw64VaYYf7h4VaboaL6LHmNAXz93ZzJFSK7tx3A2Y.m3u8?expires=1792694188&token=1MAXh6yPY_2BZYA9ugsdDTtrF48I6LCTS9_pxQL9f_Q"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -420,8 +423,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "official-free",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -430,9 +433,9 @@
       "category": "Football | Malaysia",
       "logo": "",
       "tvg_id": "MPLMalaysia.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/5y8F68vYyTracEmHj7UFooaRHeNdyzrTrxiJGjqDJWVg.m3u8?expires=1792607767&token=4SDTyEf7OZA94u6qK0tz67EObSS2upEhx9bUaPIcy8U",
+      "url": "https://2bfd741e.b-cdn.net/streamer/5y8F68vYyTracEmHj7UFooaRHeNdyzrTrxiJGjqDJWVg.m3u8?expires=1792694174&token=UWyYC6itwgb2WZJ6xNw1GqQkb5L2RyNYVzdiURPb1qQ",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/5y8F68vYyTracEmHj7UFooY4X4aRto7hHgzcQDqkh6gL.m3u8?expires=1792607767&token=NPw4Qww_jHtBH2LEBUK9xhEOSGjpbbZhngknCb_Cc3s"
+        "https://2bfd741e.b-cdn.net/streamer/5y8F68vYyTracEmHj7UFooY4X4aRto7hHgzcQDqkh6gL.m3u8?expires=1792694174&token=O3J_-MV7hPAaaQfr-ClafPJxi2XduhuZcikN5l8l6rg"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -442,8 +445,8 @@
       "quality": "HD",
       "source": "tvmalay.my",
       "licence": "official-free",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -452,9 +455,9 @@
       "category": "Football | Malaysia",
       "logo": "",
       "tvg_id": "PPAKLCup.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/9KbyYkovZrtQ4dz1fi7FEV3mQNhGs91ddeshGkj8ZYH8.m3u8?expires=1792607822&token=8kQPXhMl5z2ib-EdqGNe9JchPN5fmmYWOuViaK3H674",
+      "url": "https://2bfd741e.b-cdn.net/streamer/9KbyYkovZrtQ4dz1fi7FEUmZHaAfqp7GK7cnpVSuqvHy.m3u8?expires=1792694229&token=sRWA8mJ5uspC1UXmecooN5oFwZEL0oqFEM5eBnDjwsw",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/9KbyYkovZrtQ4dz1fi7FEUmZHaAfqp7GK7cnpVSuqvHy.m3u8?expires=1792607822&token=pKsGmEeAynQFhaDHGhU-GAIDBvmjf9gamqrF3gMj_y4"
+        "https://2bfd741e.b-cdn.net/streamer/AbhQmeWN6egukpj6xZ7cVrfskuQK16dZTkTBDHtrYFBG.m3u8?expires=1792694216&token=CXAuyCkGzgkDjY1KMMt8SWQUH4XNiSvkf5ZTqsd94Bs"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -465,7 +468,7 @@
       "source": "tvmalay.my",
       "licence": "official-free",
       "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -474,9 +477,9 @@
       "category": "Football | Global",
       "logo": "",
       "tvg_id": "FIFAPlus.tv",
-      "url": "https://2bfd741e.b-cdn.net/streamer/5rZ2ynCRigZM3NYt8GEh9zhQtuJMqrXUoZNsQVuZayjP.m3u8?expires=1792607726&token=FwAbR512o0DwTdh2X1SNXcKMg00TcHTEXPcR2Cd8E2A",
+      "url": "https://2bfd741e.b-cdn.net/streamer/5rZ2ynCRigZM3NYt8GEh9zhQtuJMqrXUoZNsQVuZayjP.m3u8?expires=1792694134&token=NJHYlgREhv9C4eJwwXHCpkzC3TFCNm9wmuSBCSkMFQs",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/5rZ2ynCRigZM3NYt8GEh9zmBp4cpQnFFXH7oejBDAp9h.m3u8?expires=1792607726&token=0cJNI1fwfWUjbitwgBIoKIicaNBe60rWYpmsr00uOEg"
+        "https://2bfd741e.b-cdn.net/streamer/5rZ2ynCRigZM3NYt8GEh9zmBp4cpQnFFXH7oejBDAp9h.m3u8?expires=1792694134&token=mLljspUm2kXSQi3rk5DUt5IoVsKQBzaCA1Ebxdzju2o"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -486,8 +489,8 @@
       "quality": "FHD",
       "source": "pluto.tv via iptv-org",
       "licence": "fast",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": "Stable: jmp2.uk short-link resolves to Pluto TV stitcher; no short-lived tokens. Alt = FIFA+ French (wurl CDN)."
     },
     {
@@ -496,10 +499,9 @@
       "category": "World | News",
       "logo": "",
       "tvg_id": "ChannelNewsAsia.sg",
-      "url": "https://2bfd741e.b-cdn.net/streamer/GHQkTuWu2uW7zWQDfA66hABxynCZLa8zGPYi1M3psts7.m3u8?expires=1792607644&token=c_kTQ3q0TmvsBYVNC5mkNnbAXDmak-B-kmbNVyG7L2c",
+      "url": "https://2bfd741e.b-cdn.net/streamer/GHQkTuWu2uW7zWQDfA66hABxynCZLa8zGPYi1M3psts7.m3u8?expires=1792694052&token=eFvIKn_beB_rdJu1xXkMOJP-vobeiRk7BhXi8J0RSEY",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/5KQZyxsjKUGnsuoGFbr5hfUUKxVQMP6PejHj89n9hwXf.m3u8?expires=1792607631&token=QIG60--9Sn9kFO4zR2K9J-yz6z3vXLToz-BiJSYaPeA",
-        "https://2bfd741e.b-cdn.net/streamer/DzyhABniG1262TyB6eHDT3K5ovLv2pqQDNEXsekr7axy.m3u8?expires=1792607644&token=mCEfS24BZ9YuhfGH-Y3c9W6upT_kc2TJiiSVD7Dayhg"
+        "https://2bfd741e.b-cdn.net/streamer/DzyhABniG1262TyB6eHDT3K5ovLv2pqQDNEXsekr7axy.m3u8?expires=1792694052&token=8UTbYITdP1Fe7B5JEuBxfsdB8HIVm2s25sLv6ShtYmA"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -509,8 +511,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -519,9 +521,9 @@
       "category": "World | News",
       "logo": "",
       "tvg_id": "AlJazeeraEnglish.qa",
-      "url": "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ3kD3k2dGT1gVosF1JkEWsUaVRhjWSKYitzC81nQxB3YX.m3u8?expires=1792607522&token=ocqhKvbvdTL1JWrhgi0AMdJhH95795nTXnzpPqSWW1w",
+      "url": "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ3kD3k2dGT1gVosF1JkEWsUaVRhjWSKYitzC81nQxB3YX.m3u8?expires=1792693929&token=bR79cUeAQOCmAWW23NfPwdcXxWvwMlR_e6DQIWF3FhU",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiHzVpuFLzUHYUZpic4qUdUeMtPpmSRQgABBmonthuSK6yH.m3u8?expires=1792607522&token=oUdc0_noUoPM6jG_mlwhJcAzl8eZzoHcypXaSkUnTCc"
+        "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiHzVpuFLzUHYUZpic4qUdUeMtPpmSRQgABBmonthuSK6yH.m3u8?expires=1792693929&token=OfDbI1TrzeiDDZ7ued0OaqeMFnRb7vvSoyaHxaMDZq4"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -531,8 +533,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -541,10 +543,9 @@
       "category": "World | News",
       "logo": "",
       "tvg_id": "AlJazeeraEnglish.qa",
-      "url": "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ3kD3k2dGT1gVosF1JkEWsUaVRhjWSKYitzC81nQxB3YX.m3u8?expires=1792607535&token=59jrvpB_UNpcJI9F7Pw445QOvntgnwDqTrZ3V19CfWo",
+      "url": "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ3kD3k2dGT1gVosF1JkEWsUaVRhjWSKYitzC81nQxB3YX.m3u8?expires=1792693942&token=DNSdY1CKUifF8BuL8EPTmTnwXN0wmkL0wAbCOHfbFZM",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ3kD3k2dGT1gVosF1JkEWsUaVRhjWSKYitzC81nQxB3YX.m3u8?expires=1792607522&token=ocqhKvbvdTL1JWrhgi0AMdJhH95795nTXnzpPqSWW1w",
-        "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiHzVpuFLzUHYUZpic4qUdUeMtPpmSRQgABBmonthuSK6yH.m3u8?expires=1792607535&token=7pR7l3b_j2VG4B2pHbSn8puqqByjGlR3kwPAH6h4p8o"
+        "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiHzVpuFLzUHYUZpic4qUdUeMtPpmSRQgABBmonthuSK6yH.m3u8?expires=1792693942&token=hCV1SakUQT60mMHHOs1_xcPbZM-WL5CgdoaqDtBJeGg"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -554,8 +555,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -564,9 +565,10 @@
       "category": "World | News",
       "logo": "",
       "tvg_id": "AlJazeeraArabic.qa",
-      "url": "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ7Y5YyR4wFnBnmkwkSUcisTK5m1AtRbcSVoSsScAScYqn.m3u8?expires=1792607494&token=Ff4j8S7FaNF9ppwdVhL1SRtGjpnM0V08adY2W3sHZLk",
+      "url": "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ7Y5YyR4wFnBnmkwkSUcisTK5m1AtRbcSVoSsScAScYqn.m3u8?expires=1792693901&token=JeGD0gwwu5BoMz8SIq-kheE2GYOa2yW7BO6Z3qV84W4",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ2km3E6nCDtnhVj2hyFnibN8tcCRZBMhUDhB6EfWxDc6m.m3u8?expires=1792607494&token=Jc7ensnuiaq9pkaSJs9UeKBxX0CyVusEwflTm0QsahU"
+        "https://2bfd741e.b-cdn.net/streamer/9BHFN1R4GkxDBuwU8WMkALbHGqCCM1vNkEpDLJHMVpPy.m3u8?expires=1792693887&token=0xwPAniR_AiWF4ROMIOkB9iO1GjkwFKw8IluJycYnOg",
+        "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ2km3E6nCDtnhVj2hyFnibN8tcCRZBMhUDhB6EfWxDc6m.m3u8?expires=1792693901&token=VZEPfvTEFizZsAAg25rF4PwYr2-DcTy0H2HcQQHEMds"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -576,8 +578,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -586,10 +588,9 @@
       "category": "World | News",
       "logo": "",
       "tvg_id": "AlJazeeraArabic.qa",
-      "url": "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ7Y5YyR4wFnBnmkwkSUcisSwk4WadzavmbVEPWz12STDm.m3u8?expires=1792607508&token=xGcB78Oe6XL3DNuakHu0sCwrxrKqK0FMl_3tLhsqlCs",
+      "url": "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ7Y5YyR4wFnBnmkwkSUcisTK5m1AtRbcSVoSsScAScYqn.m3u8?expires=1792693914&token=M0CKQvbciiyHvN43zqAlAoRpfy5x1obez4Z2QEaoQIM",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ7Y5YyR4wFnBnmkwkSUcisTK5m1AtRbcSVoSsScAScYqn.m3u8?expires=1792607508&token=4fPzm706XcuRpJ9JJ0s_0_CtMUeJWer4ImvKZNMUWic",
-        "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ7Y5YyR4wFnBnmkwkSUcisT5vY5BvqbHwWNi96S3mFqfy.m3u8?expires=1792607508&token=-MHcz2Koia43L3V9w1hqPToFQKNyRo_y3Lft_Whm2aQ"
+        "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ2km3E6nCDtnhVj2hyFnibN8tcCRZBMhUDhB6EfWxDc6m.m3u8?expires=1792693914&token=vxI9sIObj89L2QCItPYfT5eDIf3iFqKwRjW9g0CylC8"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -599,8 +600,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -620,7 +621,7 @@
       "source": "tvmalay.my",
       "licence": "free-to-air",
       "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -629,9 +630,9 @@
       "category": "World | News",
       "logo": "",
       "tvg_id": "DW.de",
-      "url": "https://2bfd741e.b-cdn.net/streamer/2b1gLSnVaxWfkib9ycF11R7aeHnJQeAoHak6nBcXUwbg.m3u8?expires=1792607685&token=1yXqqBZLcgHf55VdfwyKL-pzDpNynXuOU4MtwsbkFOs",
+      "url": "https://2bfd741e.b-cdn.net/streamer/2b1gLSnVaxWfkib9ycF11R7aeHnJQeAoHak6nBcXUwbg.m3u8?expires=1792694093&token=hh4CMYCYwUyrUUQrLvXRAqrB8l2WICJjZ0YDjr18_1A",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/6HkwaBGcJQMTAqfmnqAVaGJYC82YhLbu4wvpx2ZqF3pf.m3u8?expires=1792607685&token=N8P9oMaVeoZThRyAxZQjDD3jgJTcII44VBCMCCFwcZs"
+        "https://2bfd741e.b-cdn.net/streamer/6HkwaBGcJQMTAqfmnqAVaGJYC82YhLbu4wvpx2ZqF3pf.m3u8?expires=1792694093&token=WvawHy3wlz0MT47sY_4R2ZRT5SkDkrYOSVLTd69uJHk"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -641,8 +642,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -651,9 +652,9 @@
       "category": "World | News",
       "logo": "",
       "tvg_id": "NHKWorld.jp",
-      "url": "https://2bfd741e.b-cdn.net/streamer/AbhQmeWN6egukpj6xZ7cVrfskuQK16dZTkTBDHtrYFBG.m3u8?expires=1792607808&token=SSexBL2ki9Hm3dPR_sRpWJjXn6jDZbRAiuLgX1nO3No",
+      "url": "https://2bfd741e.b-cdn.net/streamer/AbhQmeWN6egukpj6xZ7cVrfskuQK16dZTkTBDHtrYFBG.m3u8?expires=1792694216&token=CXAuyCkGzgkDjY1KMMt8SWQUH4XNiSvkf5ZTqsd94Bs",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/AbhQmeWN6egukpj6xZ7cVrUCubCSghJ6qAV6A9LeWvbQ.m3u8?expires=1792607808&token=oibvVqr4Q8ZNztxb-SsOlnvur4psGz0Xhj0atO0o0ek"
+        "https://2bfd741e.b-cdn.net/streamer/AbhQmeWN6egukpj6xZ7cVrUCubCSghJ6qAV6A9LeWvbQ.m3u8?expires=1792694216&token=ojk5e5DPVykJVjgtIdQLSe8rKPepAzALmnjflbu_1YA"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -663,8 +664,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -673,9 +674,9 @@
       "category": "World | News",
       "logo": "",
       "tvg_id": "Arirang.kr",
-      "url": "https://2bfd741e.b-cdn.net/streamer/Anf8Cb8EMSrKQpVZBCDYCt1yTEZXUUwmvQ6xmCtoqUFQ.m3u8?expires=1792607548&token=xbyfTeOrB8F0NzHS2uzeG3iVHDasaWWVF_lZsmbk_pk",
+      "url": "https://2bfd741e.b-cdn.net/streamer/Anf8Cb8EMSrKQpVZBCDYCt1yTEZXUUwmvQ6xmCtoqUFQ.m3u8?expires=1792693956&token=ly29s8SU3RHGXZO_89F-B-CFlXCitjWbfQtFbJw8dvA",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/Anf8Cb8EMSrKQpVZBCDYCtFBcyyDp2iqyeKFMY1B9vPc.m3u8?expires=1792607548&token=W5rteH0WwodFkjuHVu4ZEP7zPZChzh35EJ3MZPoDj8I"
+        "https://2bfd741e.b-cdn.net/streamer/Anf8Cb8EMSrKQpVZBCDYCtFBcyyDp2iqyeKFMY1B9vPc.m3u8?expires=1792693956&token=s9CEmvk9V8hWPHaqiOr7EeWigc0fC931PMEnaRRKf8U"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -685,8 +686,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -695,9 +696,9 @@
       "category": "World | News",
       "logo": "",
       "tvg_id": "RT.ru",
-      "url": "https://2bfd741e.b-cdn.net/streamer/4WL6fbd5pizR5pUg2oBgGzvmfWaL4ZZLxx6sJfesetBxJheMHMUD36sJZz3SwBRMfH.m3u8?expires=1792607863&token=56qttBzp_FrXlm7aEzHgPhx3VvC-jnPRXBmtXqdXV_Q",
+      "url": "https://2bfd741e.b-cdn.net/streamer/4WL6fbd5pizR5pUg2oBgGzvmfWaL4ZZLxx6sJfesetBxJheMHMUD36sJZz3SwBRMfH.m3u8?expires=1792694270&token=lrPRhb45LRZTFk8XMueMkar93m7a6xPLdAbImAV4a1s",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/4WL6fbd5pizR5pUg2oBgGzuy4sw9qfkqQzfvmz1xDWWV8TEAJcpLbTPAoGLfAwdxHR.m3u8?expires=1792607863&token=_Ej3N-RNgPgLm8Lml6C5Rri2VX3URfsdhT8hk4I1R7c"
+        "https://2bfd741e.b-cdn.net/streamer/4WL6fbd5pizR5pUg2oBgGzuy4sw9qfkqQzfvmz1xDWWV8TEAJcpLbTPAoGLfAwdxHR.m3u8?expires=1792694270&token=EQ7bsW-oumYEyk-poNdamI5IMtCdSMVkakIG28YrXhA"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -707,8 +708,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -717,9 +718,9 @@
       "category": "World | News",
       "logo": "",
       "tvg_id": "TaiwanPlus.tw",
-      "url": "https://2bfd741e.b-cdn.net/streamer/7s2VCVXsNhLf9mqvNDBJhBRPHLC1t8tJ6f1xhQKkEemK.m3u8?expires=1792607958&token=spr4SmbbYN-iz_-A3H-bJBEClE_jEclI9xJeTuDSYaI",
+      "url": "https://2bfd741e.b-cdn.net/streamer/7s2VCVXsNhLf9mqvNDBJhBRPHLC1t8tJ6f1xhQKkEemK.m3u8?expires=1792694366&token=jD9twtMQCbvPwY0QcRwzLIN1lo--4WMFdw0tdvBzgoE",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/7s2VCVXsNhLf9mqvNDBJhBoUVX2BsE2iB9ZFGnQxRMFG.m3u8?expires=1792607958&token=EjIlTUBgvdj0VskM3ugpy1gVgU1R5mBYoVhxjj9KCFg"
+        "https://2bfd741e.b-cdn.net/streamer/7s2VCVXsNhLf9mqvNDBJhBoUVX2BsE2iB9ZFGnQxRMFG.m3u8?expires=1792694366&token=P3nCPqwetV358Mqi3ulNeBlIuQdLE9APMPvfYTQc6F0"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -729,8 +730,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -739,9 +740,10 @@
       "category": "World | News",
       "logo": "",
       "tvg_id": "IndonesiaChannel.id",
-      "url": "https://2bfd741e.b-cdn.net/streamer/7Tm22SqqoKjDKRYkQk4nVXrEBgimTH6F6QZCrisoZ1DLK9vHdQLHvVM8kZahUsiy8Y.m3u8?expires=1792607972&token=EI4kIivl4UlLZIirzw8AxS03zEQNDZt89IkmdelwL4c",
+      "url": "https://2bfd741e.b-cdn.net/streamer/7Tm22SqqoKjDKRYkQk4nVXrEBgimTH6F6QZCrisoZ1DLK9vHdQLHvVM8kZahUsiy8Y.m3u8?expires=1792694380&token=zsOoI9NieJHZ8XaOg3e_YWjjMjYNzoD5Vv0f0YiMw-s",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/7Tm22SqqoKjDKRYkQk4nVY1FZ6jkMYGQ2t9r4pDxqvsAEaTuidWtf7MiJ3wSRyMcMa.m3u8?expires=1792607972&token=a9Zk4r1t8WK9EiboWu8M4KOecCL3JCIzwu3OCYNCP3A"
+        "https://2bfd741e.b-cdn.net/streamer/7s2VCVXsNhLf9mqvNDBJhBRPHLC1t8tJ6f1xhQKkEemK.m3u8?expires=1792694366&token=jD9twtMQCbvPwY0QcRwzLIN1lo--4WMFdw0tdvBzgoE",
+        "https://2bfd741e.b-cdn.net/streamer/7Tm22SqqoKjDKRYkQk4nVY1FZ6jkMYGQ2t9r4pDxqvsAEaTuidWtf7MiJ3wSRyMcMa.m3u8?expires=1792694380&token=tTLAuuk2hmva0XXfAnrPUqsPGd5_jlFao4yCrgddnFY"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -751,8 +753,8 @@
       "quality": "FHD",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -761,10 +763,10 @@
       "category": "World | News",
       "logo": "",
       "tvg_id": "Rakita.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/DGo3J4Mk4rSdt1t2MX7f3KMHRvpDquxYfCM7aiQTs2Fc.m3u8?expires=1792607850&token=hXPNts3aC9u-0i0Mv-PkuZkqw9FFjNueMbfyFq8OJBk",
+      "url": "https://2bfd741e.b-cdn.net/streamer/DGo3J4Mk4rSdt1t2MX7f3KMHRvpDquxYfCM7aiQTs2Fc.m3u8?expires=1792694256&token=0b2f36le7FAdDatujKVxywQ3oWqG8D1e8TDOY61kWcY",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/J4oQtN7VQUxsNfNJYV3W9cu4xRw99WezGDXSVS4jU22s.m3u8?expires=1792607835&token=zP3N-NRt25IIWKSvpDsVZHIsZZFn7BJGM2mR9IqF-l0",
-        "https://2bfd741e.b-cdn.net/streamer/DGo3J4Mk4rSdt1t2MX7f3KUSEZBbWeBfejZ3U2cdGy6r.m3u8?expires=1792607850&token=wz9u3A74QEj-Y6XP9NXPb7Ko3cJ1cuVnE0Ye3ugrl0Q"
+        "https://2bfd741e.b-cdn.net/streamer/J4oQtN7VQUxsNfNJYV3W9cu4xRw99WezGDXSVS4jU22s.m3u8?expires=1792694242&token=v0_RWvftmw4MIkn-BmAsFmqJISeQhPBTOzCO4-P8LmU",
+        "https://2bfd741e.b-cdn.net/streamer/DGo3J4Mk4rSdt1t2MX7f3KUSEZBbWeBfejZ3U2cdGy6r.m3u8?expires=1792694256&token=lsM4HpLvF9lsCD3mFt41S3T-SL2KDRaUcgjEh7qkKss"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -774,8 +776,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -784,10 +786,10 @@
       "category": "Radio | Malaysia",
       "logo": "",
       "tvg_id": "AiFM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/9BHFN1R4GkxDBuwU8WMkALbHGqCCM1vNkEpDLJHMVpPy.m3u8?expires=1792607481&token=VmgOXtNGKMCyGsI36gdSy_WFlAlMA0aYXKkkxP0PdsA",
+      "url": "https://2bfd741e.b-cdn.net/streamer/9BHFN1R4GkxDBuwU8WMkALbHGqCCM1vNkEpDLJHMVpPy.m3u8?expires=1792693887&token=0xwPAniR_AiWF4ROMIOkB9iO1GjkwFKw8IluJycYnOg",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/CdGgA8CuN4EUeZHTUp8H9SQsCXgutovGhhUsziY2rhHF.m3u8?expires=1792607467&token=M_m7M5s5bgKlYacD_yPwZg7YYuQKJN4sE5e-W4N4pZI",
-        "https://2bfd741e.b-cdn.net/streamer/DcaoPSbXEy5kfHieQ7HzJCFw7V7dWUDZLVpxW7AciY7D.m3u8?expires=1792607481&token=58d6misxH5-ilQn_xUaevTqokz71Y0B4ZLFmI4tv_kI"
+        "https://2bfd741e.b-cdn.net/streamer/CdGgA8CuN4EUeZHTUp8H9SQsCXgutovGhhUsziY2rhHF.m3u8?expires=1792693873&token=HMNcQG715nb1JCbivYjwM4VFwdUffZpLjfVHYZSKrsg",
+        "https://2bfd741e.b-cdn.net/streamer/DcaoPSbXEy5kfHieQ7HzJCFw7V7dWUDZLVpxW7AciY7D.m3u8?expires=1792693887&token=OMPBYuPncRsPUSNbpa1zuWvLN1BuFiPB4VeXPBd_dXs"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -797,8 +799,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -807,9 +809,10 @@
       "category": "Radio | Malaysia",
       "logo": "",
       "tvg_id": "AsyikFM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/uMQyML65GRNwCZ32LQWKNim41g5aTaTkJk1e5wRzEEw.m3u8?expires=1792607562&token=Op2IP9t4Y-SSPuJmBURGGSog7qBK5gKRQHpQEWczdxc",
+      "url": "https://2bfd741e.b-cdn.net/streamer/uMQyML65GRNwCZ32LQWKNim41g5aTaTkJk1e5wRzEEw.m3u8?expires=1792693969&token=XKgkPmT1xhstw9pYYCwPo7nLRDip8RvOjFceuHixS9I",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/uMQyML65GRNwCZ32LQWKP5jpXUvKe4TsuaJSM7zixcz.m3u8?expires=1792607562&token=WeRZD_Y31wZVthx3ZBauAeRtE8vzfKRZ1Xg3Ri6i8tU"
+        "https://2bfd741e.b-cdn.net/streamer/Anf8Cb8EMSrKQpVZBCDYCsstp747ZJ83fmEBBxoviBto.m3u8?expires=1792693956&token=IJR7TpD4SK9i0heBLZeIB9rT8M3GnmG-y1Dcs-oBNWc",
+        "https://2bfd741e.b-cdn.net/streamer/uMQyML65GRNwCZ32LQWKP5jpXUvKe4TsuaJSM7zixcz.m3u8?expires=1792693969&token=gQB1lWc4lA3enscSTl0U5TnoCGm3RMtvcQc7aGEPdm8"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -819,8 +822,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -829,10 +832,9 @@
       "category": "Radio | Malaysia",
       "logo": "",
       "tvg_id": "BernamaRadio.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/58n9gvXVR3rzHjNLVWpCgLMAwypgmjKF9b3VarfnLNPJ9R76zfb25oKtmeDuaoUb1d.m3u8?expires=1792607603&token=WlpPWOiA6uoehdcxCw82i9_iaIhNdHBvrvFKjtHPM8E",
+      "url": "https://2bfd741e.b-cdn.net/streamer/58n9gvXVR3rzHjNLVWpCgLMAwypgmjKF9b3VarfnLNPJ9R76zfb25oKtmeDuaoUb1d.m3u8?expires=1792694010&token=tpR_HI4m69S-eUa6A6fJz-ldJBq5YxiydicOAQ9DObQ",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/8aw7eudWZ9nZJdrA4j59g8agN9yStCCskcpAEkjguiZW.m3u8?expires=1792607590&token=roV7wsf0j1oP6EhBvXXn3oq9tnB0LWrrEQ6RNnlNPhg",
-        "https://2bfd741e.b-cdn.net/streamer/8aw7eudWZ9nZJdrA4j59g8UDnuJnFJdbd9wNWQ5GaCH2.m3u8?expires=1792607603&token=VOU5e-IvAjXWpHO1m286sNAKeWi94jCzBNQB-LQHZ7Y"
+        "https://2bfd741e.b-cdn.net/streamer/8aw7eudWZ9nZJdrA4j59g8UDnuJnFJdbd9wNWQ5GaCH2.m3u8?expires=1792694010&token=FBKZJ-1iB_PZt_kpBrj42-qaRkjQaryURcu65quFzyU"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -842,8 +844,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -852,9 +854,9 @@
       "category": "Radio | Malaysia",
       "logo": "",
       "tvg_id": "BestFM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/H9TknxT3AGcJPRk3HUCpPYzWpReWibSYwx3AE9HuJnVP.m3u8?expires=1792607617&token=IEyc0xn_nbYIax-1zVoKjXY8-3dMMn0XHTIMDsrgkNw",
+      "url": "https://2bfd741e.b-cdn.net/streamer/H9TknxT3AGcJPRk3HUCpPYzWpReWibSYwx3AE9HuJnVP.m3u8?expires=1792694024&token=MGCbLSOOpt6wG-xQY7QYhTd14M789xiAQarhXRJ5SWE",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/H9TknxT3AGcJPRk3HUCpPYZidiNXYNobEbbaZuW3AF8h.m3u8?expires=1792607617&token=jlWJDFKTGY25uDJQXWUr_I8qsDWz76cjU6eQHuK7b_0"
+        "https://2bfd741e.b-cdn.net/streamer/H9TknxT3AGcJPRk3HUCpPYZidiNXYNobEbbaZuW3AF8h.m3u8?expires=1792694024&token=hckYFfszNwglusKklhxKEfDAbR-l_e7_IjCpEVlNbgE"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -864,8 +866,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -874,9 +876,10 @@
       "category": "Radio | Malaysia",
       "logo": "",
       "tvg_id": "EightFM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/2uyC8DK9BJLKJH5VhjXmwvgkh4N4vSjvm6FCfPXmAXBt.m3u8?expires=1792607699&token=OoXcB-iiei7e9dbfgvV1Q0V5RJ3xxHFJI948H1XQ0BM",
+      "url": "https://2bfd741e.b-cdn.net/streamer/2uyC8DK9BJLKJH5VhjXmwvgkh4N4vSjvm6FCfPXmAXBt.m3u8?expires=1792694106&token=jqe8I2kyk5BpR9cMaRplo2yaE7V_Vzn_xgfvhRuoHG4",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/2uyC8DK9BJLKJH5VhjXmwvDr5RskHSvc1X7nijC3u8ii.m3u8?expires=1792607699&token=XC8YdNKLCB3kQf5vTyMGNERzXuP_4fdhQzXvwiaoqeg"
+        "https://2bfd741e.b-cdn.net/streamer/2b1gLSnVaxWfkib9ycF11R7aeHnJQeAoHak6nBcXUwbg.m3u8?expires=1792694093&token=hh4CMYCYwUyrUUQrLvXRAqrB8l2WICJjZ0YDjr18_1A",
+        "https://2bfd741e.b-cdn.net/streamer/2uyC8DK9BJLKJH5VhjXmwvDr5RskHSvc1X7nijC3u8ii.m3u8?expires=1792694106&token=cOgCFiqicvYGXX-Bz8mrVz4tKsZFIZSH86A8dHT-tXA"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -886,8 +889,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -896,8 +899,10 @@
       "category": "Radio | Malaysia",
       "logo": "",
       "tvg_id": "FlyFM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/5rZ2ynCRigZM3NYt8GEh9zrHEdqeDxCQHSDTuBZWh74o.m3u8?expires=1792521314&token=Knr_oN6Ku3U43YUGUAkg0gQVUGXF6omSh9tnYlZYzJY",
-      "alt_urls": [],
+      "url": "https://2bfd741e.b-cdn.net/streamer/2oZpZG8TPTpWyxkN5eN3zQogp9AZ5d2MBTEk2gffFKMu.m3u8?expires=1792694147&token=_AUByA1upEbMYIZdQSi33CYeiKrASlJdIAnN1M7U-c8",
+      "alt_urls": [
+        "https://2bfd741e.b-cdn.net/streamer/2oZpZG8TPTpWyxkN5eN3zQexyGnZcZ1P7vdyXq5a4jN1.m3u8?expires=1792694147&token=dJrsL7lNEuisN7-zn8Zt8NF_gCSXBRvfTNHuOcRKsQ4"
+      ],
       "headers": {
         "Origin": "https://tvmalay.my",
         "Referer": "https://tvmalay.my/"
@@ -906,8 +911,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -916,9 +921,10 @@
       "category": "Radio | Malaysia",
       "logo": "",
       "tvg_id": "ManisFM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/CCVBVzkucxekKEevQnBtd817gj6N3qsQ1Tx7TivNmnTL.m3u8?expires=1792607753&token=BTMAiJRAq1oVo6Qpq8MmHryztOUDQXIKY2J2xzgrQUc",
+      "url": "https://2bfd741e.b-cdn.net/streamer/CCVBVzkucxekKEevQnBtd817gj6N3qsQ1Tx7TivNmnTL.m3u8?expires=1792694160&token=L-QvSfvXylgCwd6HbkIOxAUQKE5WAGo4qqFItojlFZA",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/CCVBVzkucxekKEevQnBtd7gZ1xH1DcCyMYYidZnXiixR.m3u8?expires=1792607753&token=rQTVPlThEx7s7A-NQF1E9zbatVidndMAxwXIplZGiHw"
+        "https://2bfd741e.b-cdn.net/streamer/2oZpZG8TPTpWyxkN5eN3zQogp9AZ5d2MBTEk2gffFKMu.m3u8?expires=1792694147&token=_AUByA1upEbMYIZdQSi33CYeiKrASlJdIAnN1M7U-c8",
+        "https://2bfd741e.b-cdn.net/streamer/CCVBVzkucxekKEevQnBtd7gZ1xH1DcCyMYYidZnXiixR.m3u8?expires=1792694160&token=OpjXBGHz8EmWkZLUudF8TSYaGOsa4_v9EgkCdPipFEI"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -928,8 +934,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -938,9 +944,9 @@
       "category": "Radio | Malaysia",
       "logo": "",
       "tvg_id": "NasionalFM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/XgXhT2KSe862yEZ1dfo54pRs6bQbA1YX2CdZ3H67K72.m3u8?expires=1792607794&token=RBZRAHCysezbijbcv_NwWSaAM2kEVXJMFqRFQQijnGg",
+      "url": "https://2bfd741e.b-cdn.net/streamer/XgXhT2KSe862yEZ1dfo54pRs6bQbA1YX2CdZ3H67K72.m3u8?expires=1792694201&token=E_lQW73y0wWcv4bjRkK6vP0kPcvsQFWpSwb0Qh_W5yk",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/XgXhT2KSe862yEZ1dfo54izaTPF9XGZc531PddgcHYD.m3u8?expires=1792607794&token=6V11u7dZXPYQL9RFqVnB_tBMi670NIBN2LoViz8H8cE"
+        "https://2bfd741e.b-cdn.net/streamer/XgXhT2KSe862yEZ1dfo54izaTPF9XGZc531PddgcHYD.m3u8?expires=1792694201&token=72C_IVgJKGfty9gvMnrioedf9Ge1qev_N0Iu0rb2SHE"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -950,8 +956,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -960,10 +966,9 @@
       "category": "Radio | Malaysia",
       "logo": "",
       "tvg_id": "RadioKlasik.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/J4oQtN7VQUxsNfNJYV3W9cu4xRw99WezGDXSVS4jU22s.m3u8?expires=1792607835&token=zP3N-NRt25IIWKSvpDsVZHIsZZFn7BJGM2mR9IqF-l0",
+      "url": "https://2bfd741e.b-cdn.net/streamer/J4oQtN7VQUxsNfNJYV3W9cu4xRw99WezGDXSVS4jU22s.m3u8?expires=1792694242&token=v0_RWvftmw4MIkn-BmAsFmqJISeQhPBTOzCO4-P8LmU",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/9KbyYkovZrtQ4dz1fi7FEV3mQNhGs91ddeshGkj8ZYH8.m3u8?expires=1792607822&token=8kQPXhMl5z2ib-EdqGNe9JchPN5fmmYWOuViaK3H674",
-        "https://2bfd741e.b-cdn.net/streamer/J4oQtN7VQUxsNfNJYV3W9d8e3P3ZnWvCuTL6iThwRdYH.m3u8?expires=1792607835&token=H1vXOrlUprwbSyl68QY5wctWoUmGAVjU49vVDv_XVxo"
+        "https://2bfd741e.b-cdn.net/streamer/J4oQtN7VQUxsNfNJYV3W9d8e3P3ZnWvCuTL6iThwRdYH.m3u8?expires=1792694242&token=GK1b9ni5cmpoJ5hU4Yjgh0KzjvhIdzxdHv4QZQklHI4"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -973,8 +978,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -983,9 +988,10 @@
       "category": "Radio | Malaysia",
       "logo": "",
       "tvg_id": "SabahFM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/EivksgFSVrWwhJzu7qc6dqzL12WnFicXoLAeE5KCEzbF.m3u8?expires=1792607878&token=BgS3NmM1UjIgxfWzAhbiyz_v-02rMCyMaWa-wCVI6SI",
+      "url": "https://2bfd741e.b-cdn.net/streamer/EivksgFSVrWwhJzu7qc6dqzL12WnFicXoLAeE5KCEzbF.m3u8?expires=1792694283&token=G57H_BU5Qgf3glGVBWC-dnYFjB8KoCVTF57McAez8sE",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/EivksgFSVrWwhJzu7qc6dr51s79NWXNoc56SyW2jmErL.m3u8?expires=1792607878&token=GM7DetDbdfLp_KapSCbSqkxX7FO7ylpOhClPa4tfmG4"
+        "https://2bfd741e.b-cdn.net/streamer/4WL6fbd5pizR5pUg2oBgGzvmfWaL4ZZLxx6sJfesetBxJheMHMUD36sJZz3SwBRMfH.m3u8?expires=1792694270&token=lrPRhb45LRZTFk8XMueMkar93m7a6xPLdAbImAV4a1s",
+        "https://2bfd741e.b-cdn.net/streamer/EivksgFSVrWwhJzu7qc6dr51s79NWXNoc56SyW2jmErL.m3u8?expires=1792694283&token=BB3nI5HpHOwKv99E6GZPGI-WMHhCvEc7vLUCJeepK5Y"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -995,8 +1001,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -1005,9 +1011,10 @@
       "category": "Radio | Malaysia",
       "logo": "",
       "tvg_id": "SarawakFM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/8qMp8HW48zPSy2MboSivQkJCuQPww8NLZn8CEZneei5D.m3u8?expires=1792607891&token=SM9dsa8bqC9kZ5qUDV9cSE1guU1AAjs6sno6rNr1Txc",
+      "url": "https://2bfd741e.b-cdn.net/streamer/8qMp8HW48zPSy2MboSivQkJCuQPww8NLZn8CEZneei5D.m3u8?expires=1792694297&token=lx_2xEfpA1JALCKdK_T1OzIWiZYXIZZubIMgk6D1tac",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/8qMp8HW48zPSy2MboSivQkTN8SUiyVEZ2HQT2jJBZ1xc.m3u8?expires=1792607891&token=mQavnspXf0DUndIjT-yaRbhswpKs6WEODJwpcY79e_g"
+        "https://2bfd741e.b-cdn.net/streamer/EivksgFSVrWwhJzu7qc6dqzL12WnFicXoLAeE5KCEzbF.m3u8?expires=1792694283&token=G57H_BU5Qgf3glGVBWC-dnYFjB8KoCVTF57McAez8sE",
+        "https://2bfd741e.b-cdn.net/streamer/8qMp8HW48zPSy2MboSivQkTN8SUiyVEZ2HQT2jJBZ1xc.m3u8?expires=1792694297&token=K7RUfpV_Crb6cprVgmJPEV1k0JvWhgOHFG89clutwC0"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -1017,8 +1024,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -1027,9 +1034,9 @@
       "category": "Radio | Malaysia",
       "logo": "",
       "tvg_id": "SuriaFM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/EYHALmAVopGng8myX8ZNRB4i7Piz6xCQgpEn1Jf6ZSxC.m3u8?expires=1792607945&token=ZntGn8QYZRHKSfx3o1RwVf2HQ-t_w07RrAPmMZoBKAg",
+      "url": "https://2bfd741e.b-cdn.net/streamer/EYHALmAVopGng8myX8ZNRB4i7Piz6xCQgpEn1Jf6ZSxC.m3u8?expires=1792694352&token=wnT5TgVPI6scVYouPXEKG_wPXIsieTlJZC-kt9_IJS8",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/EYHALmAVopGng8myX8ZNRBH4QE3VAXDgdCDyK4KR7UzH.m3u8?expires=1792607945&token=-w5L62K8zOrV_NfQkf0JD8zDnLM0LXt6gqjh0mbCObg"
+        "https://2bfd741e.b-cdn.net/streamer/EYHALmAVopGng8myX8ZNRBH4QE3VAXDgdCDyK4KR7UzH.m3u8?expires=1792694352&token=Q9yqnqkX0XCLgr7iFDSsC9tCeR1zGOSBJtsPxg7BKwY"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -1039,8 +1046,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -1049,10 +1056,9 @@
       "category": "Radio | Malaysia",
       "logo": "",
       "tvg_id": "WaiFM.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/HsqY8mvyR2tWiYFtrACfNAmjy5YEuvqzbrEhzHsyTi7p.m3u8?expires=1792608109&token=qu18kYwTyq7t9DrF0YJt4QHjhSF2kEHkKa1p9a2TIIM",
+      "url": "https://2bfd741e.b-cdn.net/streamer/HsqY8mvyR2tWiYFtrACfNAmjy5YEuvqzbrEhzHsyTi7p.m3u8?expires=1792694516&token=ZfhbYQPiScK62ILtcGDYvijjsgXZeBaWqhofpMIG7lk",
       "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/GyT3iVhXwwJMnhcdoD1NMMXbE5Vok7mAtHohRyu1qY6F.m3u8?expires=1792608095&token=ODc_UXpQ2VhBXJvFn9UNFMXNfhohK8w4H_eZc39bvho",
-        "https://2bfd741e.b-cdn.net/streamer/HsqY8mvyR2tWiYFtrACfNAdbiUS6T4XfRYiY5ondgo73.m3u8?expires=1792608109&token=uNcy5UjBDWqqWMvkHCX1Y-XvQ0oJHJ6d3I49CmqJUN4"
+        "https://2bfd741e.b-cdn.net/streamer/HsqY8mvyR2tWiYFtrACfNAdbiUS6T4XfRYiY5ondgo73.m3u8?expires=1792694516&token=xb4fI-ciFvUm1g_BTOskQikH8sW_2pj8vEoFMsLqutY"
       ],
       "headers": {
         "Origin": "https://tvmalay.my",
@@ -1062,8 +1068,8 @@
       "quality": "",
       "source": "tvmalay.my",
       "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "status": "ok",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": ""
     },
     {
@@ -1080,7 +1086,7 @@
       "source": "wurl CDN via iptv-org",
       "licence": "fast",
       "status": "ok",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": "Direct wurl CDN, token-free, stable."
     },
     {
@@ -1097,7 +1103,7 @@
       "source": "rmtv official via iptv-org",
       "licence": "official-free",
       "status": "ok",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": "Official Real Madrid channel, token-free Akamai live."
     },
     {
@@ -1114,7 +1120,7 @@
       "source": "amagi via iptv-org",
       "licence": "fast",
       "status": "ok",
-      "last_checked": "2026-10-21T22:54:21+00:00",
+      "last_checked": "2026-10-22T18:14:19+00:00",
       "notes": "Free ad-supported beIN channel, token-free Amagi CDN."
     }
   ]

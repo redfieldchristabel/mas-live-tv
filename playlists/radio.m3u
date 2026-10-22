@@ -1,1 +1,53 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="AiFM.my" tvg-name="Ai FM" tvg-logo="" group-title="Radio | Malaysia",Ai FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/9BHFN1R4GkxDBuwU8WMkALbHGqCCM1vNkEpDLJHMVpPy.m3u8?expires=1792693887&token=0xwPAniR_AiWF4ROMIOkB9iO1GjkwFKw8IluJycYnOg
+#EXTINF:-1 tvg-id="AsyikFM.my" tvg-name="Asyik FM" tvg-logo="" group-title="Radio | Malaysia",Asyik FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/uMQyML65GRNwCZ32LQWKNim41g5aTaTkJk1e5wRzEEw.m3u8?expires=1792693969&token=XKgkPmT1xhstw9pYYCwPo7nLRDip8RvOjFceuHixS9I
+#EXTINF:-1 tvg-id="BernamaRadio.my" tvg-name="Bernama Radio" tvg-logo="" group-title="Radio | Malaysia",Bernama Radio
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/58n9gvXVR3rzHjNLVWpCgLMAwypgmjKF9b3VarfnLNPJ9R76zfb25oKtmeDuaoUb1d.m3u8?expires=1792694010&token=tpR_HI4m69S-eUa6A6fJz-ldJBq5YxiydicOAQ9DObQ
+#EXTINF:-1 tvg-id="BestFM.my" tvg-name="Best FM" tvg-logo="" group-title="Radio | Malaysia",Best FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/H9TknxT3AGcJPRk3HUCpPYzWpReWibSYwx3AE9HuJnVP.m3u8?expires=1792694024&token=MGCbLSOOpt6wG-xQY7QYhTd14M789xiAQarhXRJ5SWE
+#EXTINF:-1 tvg-id="EightFM.my" tvg-name="Eight FM" tvg-logo="" group-title="Radio | Malaysia",Eight FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/2uyC8DK9BJLKJH5VhjXmwvgkh4N4vSjvm6FCfPXmAXBt.m3u8?expires=1792694106&token=jqe8I2kyk5BpR9cMaRplo2yaE7V_Vzn_xgfvhRuoHG4
+#EXTINF:-1 tvg-id="FlyFM.my" tvg-name="Fly FM" tvg-logo="" group-title="Radio | Malaysia",Fly FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/2oZpZG8TPTpWyxkN5eN3zQogp9AZ5d2MBTEk2gffFKMu.m3u8?expires=1792694147&token=_AUByA1upEbMYIZdQSi33CYeiKrASlJdIAnN1M7U-c8
+#EXTINF:-1 tvg-id="ManisFM.my" tvg-name="Manis FM" tvg-logo="" group-title="Radio | Malaysia",Manis FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/CCVBVzkucxekKEevQnBtd817gj6N3qsQ1Tx7TivNmnTL.m3u8?expires=1792694160&token=L-QvSfvXylgCwd6HbkIOxAUQKE5WAGo4qqFItojlFZA
+#EXTINF:-1 tvg-id="NasionalFM.my" tvg-name="Nasional FM" tvg-logo="" group-title="Radio | Malaysia",Nasional FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/XgXhT2KSe862yEZ1dfo54pRs6bQbA1YX2CdZ3H67K72.m3u8?expires=1792694201&token=E_lQW73y0wWcv4bjRkK6vP0kPcvsQFWpSwb0Qh_W5yk
+#EXTINF:-1 tvg-id="RadioKlasik.my" tvg-name="Radio Klasik" tvg-logo="" group-title="Radio | Malaysia",Radio Klasik
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/J4oQtN7VQUxsNfNJYV3W9cu4xRw99WezGDXSVS4jU22s.m3u8?expires=1792694242&token=v0_RWvftmw4MIkn-BmAsFmqJISeQhPBTOzCO4-P8LmU
+#EXTINF:-1 tvg-id="SabahFM.my" tvg-name="Sabah FM" tvg-logo="" group-title="Radio | Malaysia",Sabah FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/EivksgFSVrWwhJzu7qc6dqzL12WnFicXoLAeE5KCEzbF.m3u8?expires=1792694283&token=G57H_BU5Qgf3glGVBWC-dnYFjB8KoCVTF57McAez8sE
+#EXTINF:-1 tvg-id="SarawakFM.my" tvg-name="Sarawak FM" tvg-logo="" group-title="Radio | Malaysia",Sarawak FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/8qMp8HW48zPSy2MboSivQkJCuQPww8NLZn8CEZneei5D.m3u8?expires=1792694297&token=lx_2xEfpA1JALCKdK_T1OzIWiZYXIZZubIMgk6D1tac
+#EXTINF:-1 tvg-id="SuriaFM.my" tvg-name="Suria FM" tvg-logo="" group-title="Radio | Malaysia",Suria FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/EYHALmAVopGng8myX8ZNRB4i7Piz6xCQgpEn1Jf6ZSxC.m3u8?expires=1792694352&token=wnT5TgVPI6scVYouPXEKG_wPXIsieTlJZC-kt9_IJS8
+#EXTINF:-1 tvg-id="WaiFM.my" tvg-name="Wai FM" tvg-logo="" group-title="Radio | Malaysia",Wai FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/HsqY8mvyR2tWiYFtrACfNAmjy5YEuvqzbrEhzHsyTi7p.m3u8?expires=1792694516&token=ZfhbYQPiScK62ILtcGDYvijjsgXZeBaWqhofpMIG7lk

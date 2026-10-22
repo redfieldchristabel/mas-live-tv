@@ -1,3 +1,9 @@
+## 2026-10-23 (02:00 curator run)
+
+- Refreshed signed CDN tokens for 47 tvmalay channels via headless CDP re-capture.
+- PPA KL Cup went dead (no stream on revisit) — day 1 of 7, kept.
+- Euronews still dead (day 3/7), TVS still dead (day 4/7).
+- 48 channels ok. Football 7, news 15, radio 13, malaysia 17, stable 6.
 ## 2026-10-22 (02:00 curator run)
 
 - Refreshed signed CDN tokens for 46 tvmalay channels via headless CDP re-capture.
