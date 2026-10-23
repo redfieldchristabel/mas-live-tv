@@ -47,11 +47,25 @@ def probe(ch: dict) -> tuple[str, str | None]:
     return "ok", f"{w}x{h}"
 
 
+def token_expired(ch: dict) -> bool:
+    """True when the url carries a signed token that has already lapsed.
+    Expired tokens 403 regardless of stream health — marking the channel
+    dead on that alone would be wrong. The curator refreshes tokens daily;
+    a stale token just means 'unknown, needs refresh'."""
+    m = re.search(r"[?&]expires=(\d+)", ch.get("url") or "")
+    if not m:
+        return False
+    return int(m.group(1)) < datetime.now(timezone.utc).timestamp()
+
+
 def main() -> None:
     doc = json.loads(PATH.read_text())
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     for ch in doc["channels"]:
         if ch.get("status") == "todo" or not ch.get("url"):
+            continue
+        if token_expired(ch):
+            # Stale token: leave the last known status untouched.
             continue
         status, res = probe(ch)
         ch["status"] = status

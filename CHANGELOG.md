@@ -1,3 +1,9 @@
+## 2026-10-24 (02:00 curator run)
+
+- Fixed `check_streams.py`: channels whose signed token has expired are now SKIPPED instead of marked dead — last night's GitHub Action ran 5h after the token refresh and wrongly flipped 41 live channels to dead (expired tokens 403 regardless of stream health). All 41 restored.
+- Refreshed tokens for 47 tvmalay channels via headless CDP re-capture; all verified ok.
+- Al Jazeera Arabic + Arabic HD went dead (day 1 of 7, kept); Euronews day 4/7; TVS day 5/7 — both near removal.
+- 47 channels ok. Football 7, news 13, radio 13, malaysia 17, stable 6.
 ## 2026-10-23 (02:00 curator run)
 
 - Refreshed signed CDN tokens for 47 tvmalay channels via headless CDP re-capture.

@@ -1,7 +1,183 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="BeritaRTM.my" tvg-name="Berita RTM" tvg-logo="" group-title="MY | Berita",Berita RTM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/Dic2ryCWJX1G5SwtqBmhmAXk19LgyCE2dYRHBp3UWVbN.m3u8?expires=1792780340&token=-8rPcLKb6ck_twBNFq3w7oENhASmOTOySb7_Ew5oGmY
+#EXTINF:-1 tvg-id="BernamaTV.my" tvg-name="Bernama TV" tvg-logo="" group-title="MY | Berita",Bernama TV
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/8aw7eudWZ9nZJdrA4j59g8agN9yStCCskcpAEkjguiZW.m3u8?expires=1792780353&token=zK8oJS4WSauuJcYbPohBN0a__3j0luQiqWRF5S63TIg
+#EXTINF:-1 tvg-id="TV1.my" tvg-name="TV1" tvg-logo="" group-title="MY | Berita",TV1
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/6yu1vgbhwY71GV7Ju7BEkev8Am93b5HTWyViZP7y1NRv.m3u8?expires=1792780791&token=eItOveAGBLMKJZIttH2BHzsAXmRxXHr8Oo0shGYC_vE
+#EXTINF:-1 tvg-id="8TV.my" tvg-name="8TV" tvg-logo="" group-title="MY | Hiburan",8TV
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/CdGgA8CuN4EUeZHTUp8H9SQsCXgutovGhhUsziY2rhHF.m3u8?expires=1792780231&token=pZyo5R6sV55GjwJzRPA1mF-dY8bXTmL5O--enYDojcQ
+#EXTINF:-1 tvg-id="SiaraTV.my" tvg-name="Siara TV" tvg-logo="" group-title="MY | Hiburan",Siara TV
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/69KyW2byLhG2WKhDsHYQ3B5yf9WmT9RYp5jJGurxzY2N.m3u8?expires=1792780682&token=qA28wpP8fp8INetgwvMUGxB2mpIktC_ZjtWzLaDbSSo
+#EXTINF:-1 tvg-id="TVOkey.my" tvg-name="TV Okey" tvg-logo="" group-title="MY | Hiburan",TV Okey
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/DQMUXfd8q9hFDzCfAqNy6468WsTsYDfRtkzkD3gRi97G.m3u8?expires=1792780778&token=a45CPEzFig93ydWRK4gUhD7Mh4iqtc2XRwJL3wJ8Xhk
+#EXTINF:-1 tvg-id="TV2.my" tvg-name="TV2" tvg-logo="" group-title="MY | Hiburan",TV2
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/9tcMbjFSDZMHxwN3HXGJYGwGz4QgrGqzmxH2eTBRnLeF.m3u8?expires=1792780805&token=E7uaNp4kH3gbilBTEheGWNPUV8xIWjnG4eG549ZxK6A
+#EXTINF:-1 tvg-id="TV3.my" tvg-name="TV3" tvg-logo="" group-title="MY | Hiburan",TV3
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/6zRGXhNeg6eCQHs8DgaZt3ewSkznBxnfhD98tzpLpvfM.m3u8?expires=1792780819&token=YiKUyd7X1WtjU-mO8Yqh5Wtlv9VhIij59FWY0rAZScY
+#EXTINF:-1 tvg-id="TV9.my" tvg-name="TV9" tvg-logo="" group-title="MY | Hiburan",TV9
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/GRb41qqNMC1yUxfgpkTEnFQbMxeuL48sxMC8US86uAeo.m3u8?expires=1792780832&token=FSd7qnIwB0VOSXSPlA9OfEF5h_EgZ52RVeXRvvMGP-Q
+#EXTINF:-1 tvg-id="DramaSangat.my" tvg-name="Drama Sangat" tvg-logo="" group-title="MY | Drama & Filem",Drama Sangat
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/4wkTJB6FQY5TYb5phy8CQ9NPeHNYXRsijneuWm2wJTim.m3u8?expires=1792780435&token=1Pq9CrJV_KFJDyvabiSiRrw7VLse_5JpIxYRjnauQzM
+#EXTINF:-1 tvg-id="TVAlHijrah.my" tvg-name="TV AlHijrah" tvg-logo="" group-title="MY | Agama",TV AlHijrah
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/EbYCrPFsbJcfbFGUdnnv9PHsHqRr429BvDN1WXckzZMs.m3u8?expires=1792780750&token=WZ6dKXaBRDCpbb7040Pfe1s6KYGZu7RHW9ezcaKQsjQ
+#EXTINF:-1 tvg-id="TVIKIM.my" tvg-name="TV IKIM" tvg-logo="" group-title="MY | Agama",TV IKIM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/3riAzUHoBPS2rMhfTEWcisiHLJFJjdKT3z2yNx79trYE.m3u8?expires=1792780764&token=Oq5_QhgZVFBVeOrsoQfXFtyDK_v7GNwGNw-wuIZYLjo
+#EXTINF:-1 tvg-id="DidikTV.my" tvg-name="DidikTV KPM" tvg-logo="" group-title="MY | Pendidikan",DidikTV KPM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/A4x7UH3ZN4gREeyDfmf66LUBJsgd3EuDn9hS8qA5pxSk.m3u8?expires=1792780422&token=lfbJbkMuZ3onIiqez6xNGCdJo58Zu0OvqSZZ2cdvoRY
+#EXTINF:-1 tvg-id="USIMTV.my" tvg-name="USIM TV" tvg-logo="" group-title="MY | Pendidikan",USIM TV
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/GyT3iVhXwwJMnhcdoD1NMMXbE5Vok7mAtHohRyu1qY6F.m3u8?expires=1792780860&token=wXpAfpnz_5Ozs3dQjHPvL2ff--g-ZlptW2YHCaIi4hE
+#EXTINF:-1 tvg-id="BorneoTV.my" tvg-name="Borneo TV" tvg-logo="" group-title="MY | Serantau",Borneo TV
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/5KQZyxsjKUGnsuoGFbr5hfUUKxVQMP6PejHj89n9hwXf.m3u8?expires=1792780394&token=Bfxvw4wk4-9kR3KfUJWkXo3lVGP1o6epJtGh_IAsiQ8
+#EXTINF:-1 tvg-id="SelangorTV.my" tvg-name="Selangor TV" tvg-logo="" group-title="MY | Serantau",Selangor TV
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/DkWBMnvzxJptEHmhvfm5aJyhKK2aPWAuQ4Q5xvoeNzYx.m3u8?expires=1792780668&token=_ek6OVZHguyiGuE2xakZPCnpfUd35KpWz3EOBFuYXks
+#EXTINF:-1 tvg-id="SukanRTM.my" tvg-name="Sukan RTM" tvg-logo="" group-title="MY | Sukan",Sukan RTM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/4tyP3EoCC4M6SkNPNS9eyqFxwTeENn6wULfE38rkEMct.m3u8?expires=1792780696&token=F_R5K-R5U2FbQgvmd71JHWD1p1YRBowNJvxaXFqB-Ec
+#EXTINF:-1 tvg-id="MPLMalaysia.my" tvg-name="MPL Malaysia" tvg-logo="" group-title="Football | Malaysia",MPL Malaysia
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/5y8F68vYyTracEmHj7UFooQyW5eZsgBeJgxLfxpNapks.m3u8?expires=1792780531&token=yUPKJ9v6AYWYtdsv1VxSwz1NOd2DWZXpKBeO0rDeM64
+#EXTINF:-1 tvg-id="MySport.my" tvg-name="MySport" tvg-logo="" group-title="Football | Malaysia",MySport
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/4dGqw64VaYYf7h4VaboaL6S4qWSUA5N1L2C1YeKHLVas.m3u8?expires=1792780545&token=ZJHj6IXXgorzlAA2Hh7_v1ZsqvuMJxb6qEy10afNnqg
+#EXTINF:-1 tvg-id="PPAKLCup.my" tvg-name="PPA KL Cup" tvg-logo="" group-title="Football | Malaysia",PPA KL Cup
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/9KbyYkovZrtQ4dz1fi7FEV4x4ZQEnxzBn9XkhGaZwJGZ.m3u8?expires=1792780586&token=gireZy5YZ3a4eaFe3XNvrjrS4Z9YplzY-_zAuYuFPcI
 #EXTINF:-1 tvg-id="RealMadridTV.es" tvg-name="Real Madrid TV" tvg-logo="https://i.imgur.com/5pMo7dL.png" group-title="Football | Clubs",Real Madrid TV
 https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
 #EXTINF:-1 tvg-id="beINSPORTSXTRA.us" tvg-name="beIN SPORTS XTRA" tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png" group-title="Football | Global",beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FIFAPlus.tv" tvg-name="FIFA+ (English)" tvg-logo="" group-title="Football | Global",FIFA+ (English)
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/5rZ2ynCRigZM3NYt8GEh9zLvUf3du4AHN94vXRemEVop.m3u8?expires=1792780490&token=21tP0vqy6xBfdVImopzB6Aproetpe6w6mBTf_d4xJ8g
 #EXTINF:-1 tvg-id="FIFAPlus.uk@French" tvg-name="FIFA+ (French)" tvg-logo="" group-title="Football | Global",FIFA+ (French)
 https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-name="Al Jazeera English" tvg-logo="" group-title="World | News",Al Jazeera English
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ3kD3k2dGT1gVosF1JkEWsUaVRhjWSKYitzC81nQxB3YX.m3u8?expires=1792780286&token=dXjOR8CpgL1iyHMUEg7Xzb9QtDwSLG5OhZQPni936fA
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-name="Al Jazeera English HD" tvg-logo="" group-title="World | News",Al Jazeera English HD
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ3kD3k2dGT1gVosF1JkEWsUaVRhjWSKYitzC81nQxB3YX.m3u8?expires=1792780299&token=0sUc8bcCrsmEe9HY9s-qNVCk0xqo2heSqIL8Bo9lSjg
+#EXTINF:-1 tvg-id="Arirang.kr" tvg-name="Arirang" tvg-logo="" group-title="World | News",Arirang
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/Anf8Cb8EMSrKQpVZBCDYCt1yTEZXUUwmvQ6xmCtoqUFQ.m3u8?expires=1792780313&token=KyNEGZbhk-gd5dsaPTE08lsyFIjpQA8AgvduqPkITU8
+#EXTINF:-1 tvg-id="ChannelNewsAsia.sg" tvg-name="CNA" tvg-logo="" group-title="World | News",CNA
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/GHQkTuWu2uW7zWQDfA66hABxynCZLa8zGPYi1M3psts7.m3u8?expires=1792780408&token=TgztHJaICZvv2W7b9Gsm2ZV7cZL4kLuX0deYkhrwepE
+#EXTINF:-1 tvg-id="DW.de" tvg-name="DW" tvg-logo="" group-title="World | News",DW
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/2b1gLSnVaxWfkib9ycF11R7aeHnJQeAoHak6nBcXUwbg.m3u8?expires=1792780450&token=z7RoMpY6GX5SQtUrguk2Ekjomi5UiUU31s6zOIg65U8
+#EXTINF:-1 tvg-id="NHKWorld.jp" tvg-name="NHK World" tvg-logo="" group-title="World | News",NHK World
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/AbhQmeWN6egukpj6xZ7cVrfskuQK16dZTkTBDHtrYFBG.m3u8?expires=1792780572&token=QmCi4z1QZVnPORphM2TxgxUOknVTgQ31Gr8VsWRGkOg
+#EXTINF:-1 tvg-id="Rakita.my" tvg-name="Rakita" tvg-logo="" group-title="World | News",Rakita
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/DGo3J4Mk4rSdt1t2MX7f3KMHRvpDquxYfCM7aiQTs2Fc.m3u8?expires=1792780613&token=S7Jhqa99vYWEO35X9yTQBkV7H5J6Z6ngJexqcomLEzE
+#EXTINF:-1 tvg-id="RT.ru" tvg-name="RT International" tvg-logo="" group-title="World | News",RT International
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/4WL6fbd5pizR5pUg2oBgGzvmfWaL4ZZLxx6sJfesetBxJheMHMUD36sJZz3SwBRMfH.m3u8?expires=1792780627&token=uL-ddxFQgnq4EOknbtK6LjctSIqYla1p9YONPcAkjiU
+#EXTINF:-1 tvg-id="TaiwanPlus.tw" tvg-name="TaiwanPlus" tvg-logo="" group-title="World | News",TaiwanPlus
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/7s2VCVXsNhLf9mqvNDBJhBRPHLC1t8tJ6f1xhQKkEemK.m3u8?expires=1792780722&token=0lhFLBNYA5sT3OlKaxQDXBK6ggKNJmpTf7rX0A5hfEk
+#EXTINF:-1 tvg-id="IndonesiaChannel.id" tvg-name="The Indonesia Channel" tvg-logo="" group-title="World | News",The Indonesia Channel
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/7Tm22SqqoKjDKRYkQk4nVXrEBgimTH6F6QZCrisoZ1DLK9vHdQLHvVM8kZahUsiy8Y.m3u8?expires=1792780736&token=sf579PP8PH4dsLiO8Vf1vDB3yvWhTt_Cq5bS3tlvE5o
+#EXTINF:-1 tvg-id="AiFM.my" tvg-name="Ai FM" tvg-logo="" group-title="Radio | Malaysia",Ai FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/9BHFN1R4GkxDBuwU8WMkALbHGqCCM1vNkEpDLJHMVpPy.m3u8?expires=1792780244&token=5TuimOjBZAeAt5KpWssA__gOemoESfbiszpa4feTa-4
+#EXTINF:-1 tvg-id="AsyikFM.my" tvg-name="Asyik FM" tvg-logo="" group-title="Radio | Malaysia",Asyik FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/uMQyML65GRNwCZ32LQWKNim41g5aTaTkJk1e5wRzEEw.m3u8?expires=1792780326&token=6jXOoForg_o3DDr34kybTZ0WoF_ep48De0pcX5XcrtI
+#EXTINF:-1 tvg-id="BernamaRadio.my" tvg-name="Bernama Radio" tvg-logo="" group-title="Radio | Malaysia",Bernama Radio
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/58n9gvXVR3rzHjNLVWpCgLMAwypgmjKF9b3VarfnLNPJ9R76zfb25oKtmeDuaoUb1d.m3u8?expires=1792780367&token=cTWBrmOv06swAutdoWFNBvc1dufYUWHNIH4ip9BNnJM
+#EXTINF:-1 tvg-id="BestFM.my" tvg-name="Best FM" tvg-logo="" group-title="Radio | Malaysia",Best FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/H9TknxT3AGcJPRk3HUCpPYzWpReWibSYwx3AE9HuJnVP.m3u8?expires=1792780381&token=6HgQ9UVrP_J6KjL1wpztshJPmCYMedpmz2cBI7C4sBE
+#EXTINF:-1 tvg-id="EightFM.my" tvg-name="Eight FM" tvg-logo="" group-title="Radio | Malaysia",Eight FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/2uyC8DK9BJLKJH5VhjXmwvgkh4N4vSjvm6FCfPXmAXBt.m3u8?expires=1792780463&token=MXPmooZwm6BnbOXiGxyXudvQXwQaRzOgW-BtAvbodwY
+#EXTINF:-1 tvg-id="FlyFM.my" tvg-name="Fly FM" tvg-logo="" group-title="Radio | Malaysia",Fly FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/2oZpZG8TPTpWyxkN5eN3zQogp9AZ5d2MBTEk2gffFKMu.m3u8?expires=1792780504&token=nelpwMaTIiwzpa6VAv5zJHcqufJNCA-BLTPL6ngxWmk
+#EXTINF:-1 tvg-id="ManisFM.my" tvg-name="Manis FM" tvg-logo="" group-title="Radio | Malaysia",Manis FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/CCVBVzkucxekKEevQnBtd817gj6N3qsQ1Tx7TivNmnTL.m3u8?expires=1792780517&token=kaWD2iAz7SlA1i2kYuEKJ5J9MsuuEt0ZkG7BVJK73hM
+#EXTINF:-1 tvg-id="NasionalFM.my" tvg-name="Nasional FM" tvg-logo="" group-title="Radio | Malaysia",Nasional FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/XgXhT2KSe862yEZ1dfo54pRs6bQbA1YX2CdZ3H67K72.m3u8?expires=1792780558&token=dtS_iWLT8j2G0eGBr3HSrCB93RCD1gbbwSztbwshAa4
+#EXTINF:-1 tvg-id="RadioKlasik.my" tvg-name="Radio Klasik" tvg-logo="" group-title="Radio | Malaysia",Radio Klasik
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/J4oQtN7VQUxsNfNJYV3W9cu4xRw99WezGDXSVS4jU22s.m3u8?expires=1792780600&token=7U_VP3nD8Ym9UVAd9i7GPw8C_sNH2dM-g9VDIWa7NpE
+#EXTINF:-1 tvg-id="SabahFM.my" tvg-name="Sabah FM" tvg-logo="" group-title="Radio | Malaysia",Sabah FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/EivksgFSVrWwhJzu7qc6dqzL12WnFicXoLAeE5KCEzbF.m3u8?expires=1792780641&token=UH2ISs0OAlPsHy4ex18frXWb45wtDB3nkO35TK3bG8Y
+#EXTINF:-1 tvg-id="SarawakFM.my" tvg-name="Sarawak FM" tvg-logo="" group-title="Radio | Malaysia",Sarawak FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/8qMp8HW48zPSy2MboSivQkJCuQPww8NLZn8CEZneei5D.m3u8?expires=1792780654&token=JWs0539RB42Udgvb7r6-LHoxHVWNiD6e65SP6Vjbz_8
+#EXTINF:-1 tvg-id="SuriaFM.my" tvg-name="Suria FM" tvg-logo="" group-title="Radio | Malaysia",Suria FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/EYHALmAVopGng8myX8ZNRB4i7Piz6xCQgpEn1Jf6ZSxC.m3u8?expires=1792780709&token=vNVorPkX7wFqfHRK2tOwa8xqGuAGzSEyfz5BnZ_zJZ8
+#EXTINF:-1 tvg-id="WaiFM.my" tvg-name="Wai FM" tvg-logo="" group-title="Radio | Malaysia",Wai FM
+#EXTVLCOPT:http-referrer=https://tvmalay.my/
+#EXTVLCOPT:http-origin=https://tvmalay.my
+https://2bfd741e.b-cdn.net/streamer/HsqY8mvyR2tWiYFtrACfNAmjy5YEuvqzbrEhzHsyTi7p.m3u8?expires=1792780873&token=vlLAemrnFJF5eCpoCCI3qxUd4_6nhLUGgSOdxUS45g8
