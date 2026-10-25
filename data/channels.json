@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T22:07:34+00:00",
+  "updated": "2026-10-25T18:15:11+00:00",
   "channels": [
     {
       "id": "tv1.my",
@@ -336,28 +336,6 @@
       "status": "ok",
       "last_checked": "2026-10-23T18:14:36+00:00",
       "notes": " [status restored 2026-10-24: nightly check hit expired tokens, not a dead stream]"
-    },
-    {
-      "id": "tvs.my",
-      "name": "TVS",
-      "category": "MY | Serantau",
-      "logo": "",
-      "tvg_id": "TVS.my",
-      "url": "https://2bfd741e.b-cdn.net/streamer/Ej3fj6r5K4N6oHN4k5dntRjBPp1SBiXyMyEGdrQYZ3vF.m3u8?expires=1792780846&token=83g0RDh3iIUx6JUIkLxPb204YQYwaByyJm1nx3PCFYs",
-      "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/GRb41qqNMC1yUxfgpkTEnFQbMxeuL48sxMC8US86uAeo.m3u8?expires=1792780832&token=FSd7qnIwB0VOSXSPlA9OfEF5h_EgZ52RVeXRvvMGP-Q"
-      ],
-      "headers": {
-        "Origin": "https://tvmalay.my",
-        "Referer": "https://tvmalay.my/"
-      },
-      "resolution": null,
-      "quality": "",
-      "source": "tvmalay.my",
-      "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-23T18:14:36+00:00",
-      "notes": ""
     },
     {
       "id": "selangortv.my",
@@ -1086,7 +1064,7 @@
       "source": "wurl CDN via iptv-org",
       "licence": "fast",
       "status": "ok",
-      "last_checked": "2026-10-24T22:07:34+00:00",
+      "last_checked": "2026-10-25T18:15:11+00:00",
       "notes": "Direct wurl CDN, token-free, stable."
     },
     {
@@ -1103,7 +1081,7 @@
       "source": "rmtv official via iptv-org",
       "licence": "official-free",
       "status": "ok",
-      "last_checked": "2026-10-24T22:07:34+00:00",
+      "last_checked": "2026-10-25T18:15:11+00:00",
       "notes": "Official Real Madrid channel, token-free Akamai live."
     },
     {
@@ -1120,7 +1098,7 @@
       "source": "amagi via iptv-org",
       "licence": "fast",
       "status": "ok",
-      "last_checked": "2026-10-24T22:07:34+00:00",
+      "last_checked": "2026-10-25T18:15:11+00:00",
       "notes": "Free ad-supported beIN channel, token-free Amagi CDN."
     }
   ]

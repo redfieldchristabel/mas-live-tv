@@ -1,3 +1,9 @@
+## 2026-10-26 (02:00 curator run)
+
+- Refreshed signed CDN tokens for 47 tvmalay channels via headless CDP re-capture.
+- **Removed TVS** — dead 7 consecutive days (since 2026-10-20), per the retention rule in AGENTS.md.
+- Euronews day 6/7 (removal tomorrow if still dead); Al Jazeera Arabic + HD day 3/7, kept.
+- 46 channels ok. Football 7, news 13, radio 13, malaysia 16, stable 6.
 ## 2026-10-25 (02:00 curator run)
 
 - Refreshed signed CDN tokens for 47 tvmalay channels via headless CDP re-capture.
