@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T22:10:40+00:00",
+  "updated": "2026-10-26T18:15:14+00:00",
   "channels": [
     {
       "id": "tv1.my",
@@ -585,26 +585,6 @@
       "notes": " [status restored 2026-10-24: nightly check hit expired tokens, not a dead stream]"
     },
     {
-      "id": "euronews.fr",
-      "name": "Euronews",
-      "category": "World | News",
-      "logo": "",
-      "tvg_id": "Euronews.fr",
-      "url": "https://2bfd741e.b-cdn.net/streamer/2uyC8DK9BJLKJH5VhjXmwvgkh4N4vSjvm6FCfPXmAXBt.m3u8?expires=1792511758&token=T-l91NYvkE5RQpoct4on1O4r3F10VF6pplWMPgzqDXE",
-      "alt_urls": [],
-      "headers": {
-        "Origin": "https://tvmalay.my",
-        "Referer": "https://tvmalay.my/"
-      },
-      "resolution": null,
-      "quality": "",
-      "source": "tvmalay.my",
-      "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-22T22:52:53+00:00",
-      "notes": ""
-    },
-    {
       "id": "dw.de",
       "name": "DW",
       "category": "World | News",
@@ -1064,7 +1044,7 @@
       "source": "wurl CDN via iptv-org",
       "licence": "fast",
       "status": "ok",
-      "last_checked": "2026-10-25T22:10:40+00:00",
+      "last_checked": "2026-10-26T18:15:14+00:00",
       "notes": "Direct wurl CDN, token-free, stable."
     },
     {
@@ -1081,7 +1061,7 @@
       "source": "rmtv official via iptv-org",
       "licence": "official-free",
       "status": "ok",
-      "last_checked": "2026-10-25T22:10:40+00:00",
+      "last_checked": "2026-10-26T18:15:14+00:00",
       "notes": "Official Real Madrid channel, token-free Akamai live."
     },
     {
@@ -1098,7 +1078,7 @@
       "source": "amagi via iptv-org",
       "licence": "fast",
       "status": "ok",
-      "last_checked": "2026-10-25T22:10:40+00:00",
+      "last_checked": "2026-10-26T18:15:14+00:00",
       "notes": "Free ad-supported beIN channel, token-free Amagi CDN."
     }
   ]
