@@ -1,3 +1,8 @@
+## 2026-10-28 (02:00 curator run)
+
+- Refreshed signed CDN tokens for 47 tvmalay channels via headless CDP re-capture.
+- Al Jazeera Arabic + HD day 5/7, kept (removal in 2 days if still dead).
+- 47 channels ok. Football 8, news 13, radio 13, malaysia 17, stable 6.
 ## 2026-10-27 (02:00 curator run)
 
 - Refreshed signed CDN tokens for 47 tvmalay channels via headless CDP re-capture.
