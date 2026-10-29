@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T23:44:41+00:00",
+  "updated": "2026-10-29T18:15:50+00:00",
   "channels": [
     {
       "id": "tv1.my",
@@ -539,52 +539,6 @@
       "notes": " [status restored 2026-10-24: nightly check hit expired tokens, not a dead stream]"
     },
     {
-      "id": "aljazeeraarabic.qa",
-      "name": "Al Jazeera Arabic",
-      "category": "World | News",
-      "logo": "",
-      "tvg_id": "AlJazeeraArabic.qa",
-      "url": "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ7Y5YyR4wFnBnmkwkSUcisTK5m1AtRbcSVoSsScAScYqn.m3u8?expires=1792780258&token=rB5jqgS3IxLR1T_z3AT55bM3-fN-sR7xDWI8wCJx_5M",
-      "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/9BHFN1R4GkxDBuwU8WMkALbHGqCCM1vNkEpDLJHMVpPy.m3u8?expires=1792780244&token=5TuimOjBZAeAt5KpWssA__gOemoESfbiszpa4feTa-4",
-        "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ2km3E6nCDtnhVj2hyFnibN8tcCRZBMhUDhB6EfWxDc6m.m3u8?expires=1792780258&token=_cQtzqRYsIg-MT8JqDIOtZ9d_PJGEWnvO547DiV5KOo"
-      ],
-      "headers": {
-        "Origin": "https://tvmalay.my",
-        "Referer": "https://tvmalay.my/"
-      },
-      "resolution": null,
-      "quality": "",
-      "source": "tvmalay.my",
-      "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-23T18:14:36+00:00",
-      "notes": " [status restored 2026-10-24: nightly check hit expired tokens, not a dead stream]"
-    },
-    {
-      "id": "aljazeeraarabichd.qa",
-      "name": "Al Jazeera Arabic HD",
-      "category": "World | News",
-      "logo": "",
-      "tvg_id": "AlJazeeraArabic.qa",
-      "url": "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ7Y5YyR4wFnBnmkwkSUcisTK5m1AtRbcSVoSsScAScYqn.m3u8?expires=1792780271&token=wm7cx3Ml7ZjZTfDbIexjxb7Sxh0hBMpZnaYqd_CvYxo",
-      "alt_urls": [
-        "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ7Y5YyR4wFnBnmkwkSUcisTK5m1AtRbcSVoSsScAScYqn.m3u8?expires=1792780258&token=rB5jqgS3IxLR1T_z3AT55bM3-fN-sR7xDWI8wCJx_5M",
-        "https://2bfd741e.b-cdn.net/streamer/31qHhb7eEptKUvdFoZYeiJ2km3E6nCDtnhVj2hyFnibN8tcCRZBMhUDhB6EfWxDc6m.m3u8?expires=1792780271&token=ZG31fKZgmi-g-mVA1c-6Ey9ElUfrxwu5fqoCL0qhXNw"
-      ],
-      "headers": {
-        "Origin": "https://tvmalay.my",
-        "Referer": "https://tvmalay.my/"
-      },
-      "resolution": null,
-      "quality": "",
-      "source": "tvmalay.my",
-      "licence": "free-to-air",
-      "status": "dead",
-      "last_checked": "2026-10-23T18:14:36+00:00",
-      "notes": " [status restored 2026-10-24: nightly check hit expired tokens, not a dead stream]"
-    },
-    {
       "id": "dw.de",
       "name": "DW",
       "category": "World | News",
@@ -1044,7 +998,7 @@
       "source": "wurl CDN via iptv-org",
       "licence": "fast",
       "status": "ok",
-      "last_checked": "2026-10-28T23:44:41+00:00",
+      "last_checked": "2026-10-29T18:15:50+00:00",
       "notes": "Direct wurl CDN, token-free, stable."
     },
     {
@@ -1061,7 +1015,7 @@
       "source": "rmtv official via iptv-org",
       "licence": "official-free",
       "status": "ok",
-      "last_checked": "2026-10-28T23:44:41+00:00",
+      "last_checked": "2026-10-29T18:15:50+00:00",
       "notes": "Official Real Madrid channel, token-free Akamai live."
     },
     {
@@ -1078,7 +1032,7 @@
       "source": "amagi via iptv-org",
       "licence": "fast",
       "status": "ok",
-      "last_checked": "2026-10-28T23:44:41+00:00",
+      "last_checked": "2026-10-29T18:15:50+00:00",
       "notes": "Free ad-supported beIN channel, token-free Amagi CDN."
     }
   ]
