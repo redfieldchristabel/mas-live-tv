@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T18:16:03+00:00",
+  "updated": "2026-10-30T23:22:37+00:00",
   "channels": [
     {
       "id": "tv1.my",
@@ -998,7 +998,7 @@
       "source": "wurl CDN via iptv-org",
       "licence": "fast",
       "status": "ok",
-      "last_checked": "2026-10-30T18:16:03+00:00",
+      "last_checked": "2026-10-30T23:22:37+00:00",
       "notes": "Direct wurl CDN, token-free, stable."
     },
     {
@@ -1015,7 +1015,7 @@
       "source": "rmtv official via iptv-org",
       "licence": "official-free",
       "status": "ok",
-      "last_checked": "2026-10-30T18:16:03+00:00",
+      "last_checked": "2026-10-30T23:22:37+00:00",
       "notes": "Official Real Madrid channel, token-free Akamai live."
     },
     {
@@ -1032,7 +1032,7 @@
       "source": "amagi via iptv-org",
       "licence": "fast",
       "status": "ok",
-      "last_checked": "2026-10-30T18:16:03+00:00",
+      "last_checked": "2026-10-30T23:22:37+00:00",
       "notes": "Free ad-supported beIN channel, token-free Amagi CDN."
     }
   ]
