@@ -1,3 +1,8 @@
+## 2026-11-10 (02:00 curator run)
+
+- Refreshed signed CDN tokens for 47 tvmalay channels via headless CDP re-capture; all verified ok.
+- No additions, no removals, no dead channels — eleventh clean run in a row.
+- 47 channels ok. Football 8, news 11, radio 13, malaysia 17, stable 6.
 ## 2026-11-09 (02:00 curator run)
 
 - Refreshed signed CDN tokens for 47 tvmalay channels via headless CDP re-capture; all verified ok.
