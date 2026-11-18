@@ -6,9 +6,5 @@
   {
     "page": "https://tvmalay.my/euronews/",
     "error": "HTTP Error 404: Not Found"
-  },
-  {
-    "page": "https://tvmalay.my/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftvmalay.my%2F",
-    "error": "HTTP Error 520: <none>"
   }
 ]
